@@ -245,7 +245,7 @@ public class SendMessageUtil {
         LanguageConfig language = getLanguage(executor);
         if ("last_location".equals(target) || "rtp_name".equals(target) || "spawn_name".equals(target)) vars[vars.length - 2] = language.getMessage(target);
         String title = language.getFormatMessage("teleport.countdown", vars);
-        String subTitle = language.getFormatMessage("teleport.cancel_on_move");
+//        String subTitle = language.getFormatMessage("teleport.cancel_on_move");
         executor.sendTitle(title, subTitle);
     }
 
@@ -265,7 +265,7 @@ public class SendMessageUtil {
         LanguageConfig language = getLanguage(executor);
         if ("last_location".equals(target) || "rtp_name".equals(target) || "spawn_name".equals(target)) target = language.getMessage(target);
         sendMessage(executor, language.getFormatPrefixMessage(executor, "teleport.countdown", target, delay));
-        sendMessage(executor, language.getFormatPrefixMessage(executor, "teleport.cancel_on_move"));
+//        sendMessage(executor, language.getFormatPrefixMessage(executor, "teleport.cancel_on_move"));
     }
 
     // title 样式的正在为您生成随机传送点消息
