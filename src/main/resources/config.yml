@@ -14,10 +14,10 @@ debug: false
 
 # 插件更新检查
 # 关闭后服务器后台和拥有 tpa.version 或 tpa.admin 权限的玩家将不会收到插件更新提醒
-update_check: true
+update_check: false
 
 # 是否每次进入服务器或死亡都强制传送到 spawn
-force_spawn: true
+force_spawn: false
 
 # 是否启用 title 传送消息（1.12 以下版本将自动关闭）
 enable_title_message: true
@@ -42,7 +42,7 @@ delay:
   # 没有任何权限的玩家
   default:
     # 传送前需要等待多长时间？（为 0 关闭）
-    teleport: 5
+    teleport: 3
 
     # 使用命令后需要等待多长时间才能再次使用命令？（为 0 关闭）
     command: 30
@@ -132,14 +132,14 @@ rtp:
 
   # 在哪些世界无法使用该命令
   disable_worlds:
-    - disableWorld1
-    - disableWorld2
+    - world_nether
+    - world_the_end
 
   # 随机传送的最大范围（半径）
   # 以使用命令的玩家为中心
   limit:
-    x: 500
-    z: 500
+    x: 800
+    z: 800
 
 # warp 命令设置
 warp:
