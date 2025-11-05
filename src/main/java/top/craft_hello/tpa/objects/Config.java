@@ -296,7 +296,8 @@ public class Config extends Configuration {
     }
 
     public boolean isEnableSound(){
-        return isEnableTitleMessage() && enableSound;
+//        return isEnableTitleMessage() && enableSound;
+        return enableSound;
     }
 
     public boolean hasPermission(CommandSender sender, PermissionType permissionType) {
