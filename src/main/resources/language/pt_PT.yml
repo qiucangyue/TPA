@@ -3,178 +3,178 @@
 #=======================
 # Configurações básicas
 #=======================
-prefix: "&a&l> "
-console_prefix: "&7&l[TPA] "
+prefix: "&a> "
+console_prefix: "&7[TPA] "
 not_online_players: "Nenhum jogador online"
 not_warps: "Nenhum ponto de teleporte disponível"
 not_homes: "Nenhuma casa definida"
 spawn_name: "Spawn"
 rtp_name: "Teleporte aleatório"
 last_location: "Última localização"
-lang.set_success: "&a&lIdioma do cliente definido para &6&l<target>"
+lang.set_success: "&aIdioma do cliente definido para &6<target>"
 
 #=======================
 # Interação com botões
 #=======================
 ## Texto dos botões
-accept_button: "&a&l[Aceitar]"
-deny_button: "&c&l[Recusar]"
-blacklist.add_button: "&c&l[Bloquear]"
-blacklist.remove_button: "&a&l[Desbloquear]"
-teleport_button: "&a&l[Teleportar]"
-location_set_button: "&6&l[Definir local]"
-default_home_set_button: "&e&l[Casa padrão]"
-delete_button: "&c&l[Excluir]"
+accept_button: "&a[Aceitar]"
+deny_button: "&c[Recusar]"
+blacklist.add_button: "&c[Bloquear]"
+blacklist.remove_button: "&a[Desbloquear]"
+teleport_button: "&a[Teleportar]"
+location_set_button: "&6[Definir local]"
+default_home_set_button: "&e[Casa padrão]"
+delete_button: "&c[Excluir]"
 
 ## Dicas dos botões
-accept_click_hint: "&a&lClique para aceitar"
-deny_click_hint: "&c&lClique para recusar"
-blacklist.add_hint: "&c&lBloquear jogador"
-blacklist.remove_hint: "&a&lRemover bloqueio"
-teleport_click_hint: "&a&lTeleportar agora"
-set_location_hint: "&6&lDefinir posição atual"
-set_default_home_hint: "&e&lDefinir como casa padrão"
-delete_click_hint: "&c&lExcluir permanentemente"
+accept_click_hint: "&aClique para aceitar"
+deny_click_hint: "&cClique para recusar"
+blacklist.add_hint: "&cBloquear jogador"
+blacklist.remove_hint: "&aRemover bloqueio"
+teleport_click_hint: "&aTeleportar agora"
+set_location_hint: "&6Definir posição atual"
+set_default_home_hint: "&eDefinir como casa padrão"
+delete_click_hint: "&cExcluir permanentemente"
 
 #=======================
 # Solicitações de teleporte
 #=======================
-request.to_here: "&a&lJogador &6&l<target> &a&lsolicitou teleporte para você! (&6&l<seconds>s&a&l)"
-request.to_target: "&a&lJogador &6&l<target> &a&lte convidou! (&6&l<seconds>s&a&l)"
-request.sent_success: "&a&lSolicitação enviada para &6&l<target>"
-request.timeout_notice: "&a&lExpira em &6&l<seconds> segundos"
-request.expired_from: "&c&lSolicitação de &6&l<target> &c&lexpirada"
-request.expired_to: "&c&lSua solicitação para &6&l<target> &c&lexpirou"
+request.to_here: "&aJogador &6<target> &asolicitou teleporte para você! (&6<seconds>s&a)"
+request.to_target: "&aJogador &6<target> &ate convidou! (&6<seconds>s&a)"
+request.sent_success: "&aSolicitação enviada para &6<target>"
+request.timeout_notice: "&aExpira em &6<seconds> segundos"
+request.expired_from: "&cSolicitação de &6<target> &cexpirada"
+request.expired_to: "&cSua solicitação para &6<target> &cexpirou"
 
 #=======================
 # Casas
 #=======================
-home.list_header: "&a&lCasas disponíveis:"
-home.set_success: "&a&lCasa &6&l<target> &a&ldefinida"
-home.default_set_success: "&a&lCasa padrão definida para &6&l<target>"
-home.delete_success: "&a&lCasa &6&l<target> &a&lexcluída"
-home.teleport_success: "&a&lTeleportado para casa &6&l<target>"
-home.max_limit_error: "&c&lLimite máximo: &6&l<max_home_amount> casas"
-error.default_home_already_set: "&6&l<target> &c&ljá é a casa padrão"
+home.list_header: "&aCasas disponíveis:"
+home.set_success: "&aCasa &6<target> &adefinida"
+home.default_set_success: "&aCasa padrão definida para &6<target>"
+home.delete_success: "&aCasa &6<target> &aexcluída"
+home.teleport_success: "&aTeleportado para casa &6<target>"
+home.max_limit_error: "&cLimite máximo: &6<max_home_amount> casas"
+error.default_home_already_set: "&6<target> &cjá é a casa padrão"
 
 #=======================
 # Warps
 #=======================
-warp.list_header: "&a&lWarps disponíveis:"
-warp.set_success: "&a&lWarp &6&l<target> &a&ldefinido"
-warp.delete_success: "&a&lWarp &6&l<target> &a&lexcluído"
-warp.teleport_success: "&a&lTeleportado para warp &6&l<target>"
+warp.list_header: "&aWarps disponíveis:"
+warp.set_success: "&aWarp &6<target> &adefinido"
+warp.delete_success: "&aWarp &6<target> &aexcluído"
+warp.teleport_success: "&aTeleportado para warp &6<target>"
 
 #=======================
 # Spawn
 #=======================
-spawn.set_success: "&a&lSpawn definido"
-spawn.delete_success: "&a&lSpawn removido"
-spawn.teleport_success: "&a&lTeleportado para o spawn!"
+spawn.set_success: "&aSpawn definido"
+spawn.delete_success: "&aSpawn removido"
+spawn.teleport_success: "&aTeleportado para o spawn!"
 
 #=======================
 # Última localização
 #=======================
-back.teleport_success: "&a&lVoltou para a última localização!"
+back.teleport_success: "&aVoltou para a última localização!"
 
 #=======================
 # Teleporte aleatório
 #=======================
-rtp.generating: "&a&lGerando local aleatório..."
-rtp.success: "&a&lTeleportado com sucesso!"
-rtp.failed: "&c&lFalha no teleporte aleatório!"
+rtp.generating: "&aGerando local aleatório..."
+rtp.success: "&aTeleportado com sucesso!"
+rtp.failed: "&cFalha no teleporte aleatório!"
 
 #=======================
 # Lista negra
 #=======================
-blacklist.list_header: "&a&lLista negra:"
-blacklist.add_success: "&a&l&6&l<target> &a&lbloqueado"
-blacklist.remove_success: "&a&l&6&l<target> &a&ldesbloqueado"
+blacklist.list_header: "&aLista negra:"
+blacklist.add_success: "&a&6<target> &abloqueado"
+blacklist.remove_success: "&a&6<target> &adesbloqueado"
 
 #=======================
 # Mensagens de erro
 #=======================
 ## Status do comando
-error.command_disabled: "&c&lComando desativado"
-error.world_disabled: "&c&lIndisponível neste mundo"
-error.command_cooldown: "&c&lAguarde &6&l<seconds>s"
+error.command_disabled: "&cComando desativado"
+error.world_disabled: "&cIndisponível neste mundo"
+error.command_cooldown: "&cAguarde &6<seconds>s"
 
 ## Permissões
-error.console_restricted: "&c&lApenas jogadores"
-error.permission_denied: "&c&lPermissão negada!"
+error.console_restricted: "&cApenas jogadores"
+error.permission_denied: "&cPermissão negada!"
 
 ## Status do jogador
-error.no_online_players: "&c&lNenhum jogador online"
-error.target_offline: "&c&lJogador &6&l<target> &c&loffline"
-error.self_operation: "&c&lNão aplicável a si mesmo"
+error.no_online_players: "&cNenhum jogador online"
+error.target_offline: "&cJogador &6<target> &coffline"
+error.self_operation: "&cNão aplicável a si mesmo"
 
 ## Status da solicitação
-error.no_pending_request: "&c&lNenhuma solicitação pendente"
-error.request_pending: "&c&lSolicitação em andamento"
+error.no_pending_request: "&cNenhuma solicitação pendente"
+error.request_pending: "&cSolicitação em andamento"
 
 ## Lista negra
-error.already_blacklisted: "&c&lJá está bloqueado"
-error.blocked_by_target: "&c&lVocê foi bloqueado"
-error.blacklist_empty: "&c&lLista negra vazia"
-error.not_blacklisted: "&c&lNão está bloqueado"
+error.already_blacklisted: "&cJá está bloqueado"
+error.blocked_by_target: "&cVocê foi bloqueado"
+error.blacklist_empty: "&cLista negra vazia"
+error.not_blacklisted: "&cNão está bloqueado"
 
 ## Casas
-error.home_not_found: "&c&lCasa &6&l<target> &c&lnão encontrada"
-error.no_homes_set: "&c&lNenhuma casa definida"
-error.no_default_home: "&c&lNenhuma casa padrão"
+error.home_not_found: "&cCasa &6<target> &cnão encontrada"
+error.no_homes_set: "&cNenhuma casa definida"
+error.no_default_home: "&cNenhuma casa padrão"
 
 ## Warps
-error.warp_not_found: "&c&lWarp &6&l<target> &c&lnão encontrado"
-error.no_warps_set: "&c&lNenhum warp disponível"
+error.warp_not_found: "&cWarp &6<target> &cnão encontrado"
+error.no_warps_set: "&cNenhum warp disponível"
 
 ## Localizações
-error.last_location_missing: "&c&lSem registro de localização"
-error.logout_location_missing: "&c&lSem local de logout"
-error.spawn_not_set: "&c&lSpawn não definido"
+error.last_location_missing: "&cSem registro de localização"
+error.logout_location_missing: "&cSem local de logout"
+error.spawn_not_set: "&cSpawn não definido"
 
 ## Sintaxe
-error.syntax_generic: "&c&lSintaxe incorreta! Use: /<command>"
-error.syntax_tpa: "&c&lSintaxe incorreta! Use: /<command> <jogador>"
-error.syntax_tpall: "&c&lSintaxe incorreta! Use: /<command> [player/warp/spawn] [nome]"
-error.syntax_warp: "&c&lSintaxe incorreta! Use: /<command> <warp>"
-error.syntax_home: "&c&lSintaxe incorreta! Use: /<command> <casa>"
+error.syntax_generic: "&cSintaxe incorreta! Use: /<command>"
+error.syntax_tpa: "&cSintaxe incorreta! Use: /<command> <jogador>"
+error.syntax_tpall: "&cSintaxe incorreta! Use: /<command> [player/warp/spawn] [nome]"
+error.syntax_warp: "&cSintaxe incorreta! Use: /<command> <warp>"
+error.syntax_home: "&cSintaxe incorreta! Use: /<command> <casa>"
 
 ## Erros do sistema
-error.config_not_found: "&c&lConfiguração recriada"
-error.runtime: "&c&lErro do plugin: <message>"
-error.forwarded_error: "&c&lErro de &6&l<target>&c&l:"
+error.config_not_found: "&cConfiguração recriada"
+error.runtime: "&cErro do plugin: <message>"
+error.forwarded_error: "&cErro de &6<target>&c:"
 
 #=======================
 # Processo de teleporte
 #=======================
-teleport.accept.self: "&a&lSolicitação de &6&l<target> &a&laceita"
-teleport.accept.target: "&a&l&6&l<target> &a&laceitou"
-teleport.deny.self: "&c&lSolicitação de &6&l<target> &c&lrecusada"
-teleport.deny.target: "&c&l&6&l<target> &c&lrecusou"
-teleport.countdown: "&a&lTeleportando em &6&l<seconds>s"
-teleport.cancel_on_move: "&a&lMovimento cancela teleporte"
-teleport.canceled.self: "&c&lTeleporte cancelado"
-teleport.canceled.target: "&c&lCancelado pelo jogador"
-teleport.generic_success: "&a&lTeleportado para &6&l<target>"
-teleport.tpall.to_target: "&a&lAdministrador te teleportou"
-teleport.tpall.to_self: "&a&lTodos teleportados para você"
-teleport.tpall.success: "&a&lTodos teleportados para &6&l<target>"
-teleport.logout_location: "&a&lLocal de logout de &6&l<target>"
+teleport.accept.self: "&aSolicitação de &6<target> &aaceita"
+teleport.accept.target: "&a&6<target> &aaceitou"
+teleport.deny.self: "&cSolicitação de &6<target> &crecusada"
+teleport.deny.target: "&c&6<target> &crecusou"
+teleport.countdown: "&aTeleportando em &6<seconds>s"
+teleport.cancel_on_move: "&aMovimento cancela teleporte"
+teleport.canceled.self: "&cTeleporte cancelado"
+teleport.canceled.target: "&cCancelado pelo jogador"
+teleport.generic_success: "&aTeleportado para &6<target>"
+teleport.tpall.to_target: "&aAdministrador te teleportou"
+teleport.tpall.to_self: "&aTodos teleportados para você"
+teleport.tpall.success: "&aTodos teleportados para &6<target>"
+teleport.logout_location: "&aLocal de logout de &6<target>"
 
 #=======================
 # Mensagens do sistema
 #=======================
-system.config_reloaded: "&a&lConfiguração recarregada"
-system.plugin_loaded: "&a&lPlugin carregado! Versão: &6&l<target>"
-system.plugin_unloaded: "&c&lPlugin descarregado"
-system.config_migrated_success: "&a&lMigração concluída"
-system.config_migrated: "&a&lMigrando configurações antigas (backup automático)"
-system.debug_warning: "&c&lModo debug ativo - desative após uso!"
+system.config_reloaded: "&aConfiguração recarregada"
+system.plugin_loaded: "&aPlugin carregado! Versão: &6<target>"
+system.plugin_unloaded: "&cPlugin descarregado"
+system.config_migrated_success: "&aMigração concluída"
+system.config_migrated: "&aMigrando configurações antigas (backup automático)"
+system.debug_warning: "&cModo debug ativo - desative após uso!"
 
 #=======================
 # Atualizações
 #=======================
-update.checking: "&a&lVerificando atualizações..."
-update.available: "&a&lNova versão &6&lTPA-v<target>&a&l disponível: https://modrinth.com/plugin/tpa.66666/versions"
-update.latest: "&a&lVersão atualizada"
-update.failed: "&c&lFalha na verificação"
+update.checking: "&aVerificando atualizações..."
+update.available: "&aNova versão &6TPA-v<target>&a disponível: https://modrinth.com/plugin/tpa.66666/versions"
+update.latest: "&aVersão atualizada"
+update.failed: "&cFalha na verificação"

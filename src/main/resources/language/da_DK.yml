@@ -3,178 +3,178 @@
 #=======================
 # Grundindstillinger
 #=======================
-prefix: "&a&l> "
-console_prefix: "&7&l[TPA] "
+prefix: "&a> "
+console_prefix: "&7[TPA] "
 not_online_players: "Ingen online spillere"
 not_warps: "Ingen tilgængelige teleportationspunkter"
 not_homes: "Ingen tilgængelige hjem"
 spawn_name: "Spawn"
 last_location: "Sidste position"
 rtp: "Tilfældigt teleportationspunkt"
-lang.set_success: "&a&lDu har sat klientens sprog til &6&l<target>"
+lang.set_success: "&aDu har sat klientens sprog til &6<target>"
 
 #=======================
 # Knapper og interaktion
 #=======================
 ## Knappetekster
-accept_button: "&a&l[Accepter]"
-deny_button: "&c&l[Afslå]"
-blacklist.add_button: "&c&l[Afslå og bloker]"
-blacklist.remove_button: "&a&l[Fjern blokering]"
-teleport_button: "&a&l[Teleporter]"
-location_set_button: "&6&l[Sæt position]"
-default_home_set_button: "&e&l[Sæt som standardhjem]"
-delete_button: "&c&l[Slet]"
+accept_button: "&a[Accepter]"
+deny_button: "&c[Afslå]"
+blacklist.add_button: "&c[Afslå og bloker]"
+blacklist.remove_button: "&a[Fjern blokering]"
+teleport_button: "&a[Teleporter]"
+location_set_button: "&6[Sæt position]"
+default_home_set_button: "&e[Sæt som standardhjem]"
+delete_button: "&c[Slet]"
 
 ## Knappetips
-accept_click_hint: "&a&lKlik her for at acceptere teleportation"
-deny_click_hint: "&c&lKlik her for at afslå teleportation"
-blacklist.add_hint: "&c&lKlik for at afslå og blokere spilleren"
-blacklist.remove_hint: "&a&lKlik for at fjerne blokering"
-teleport_click_hint: "&a&lKlik for at teleportere"
-set_location_hint: "&6&lKlik for at sætte nuværende position"
-set_default_home_hint: "&e&lKlik for at sætte som standardhjem"
-delete_click_hint: "&c&lKlik for at slette"
+accept_click_hint: "&aKlik her for at acceptere teleportation"
+deny_click_hint: "&cKlik her for at afslå teleportation"
+blacklist.add_hint: "&cKlik for at afslå og blokere spilleren"
+blacklist.remove_hint: "&aKlik for at fjerne blokering"
+teleport_click_hint: "&aKlik for at teleportere"
+set_location_hint: "&6Klik for at sætte nuværende position"
+set_default_home_hint: "&eKlik for at sætte som standardhjem"
+delete_click_hint: "&cKlik for at slette"
 
 #=======================
 # Teleportationsanmodninger
 #=======================
-request.to_here: "&a&lSpiller &6&l<target> &a&lvil teleportere til dig. Anmodning udløber om &6&l<seconds> &a&lsekunder!"
-request.to_target: "&a&lSpiller &6&l<target> &a&linviterer dig til deres position. Anmodning udløber om &6&l<seconds> &a&lsekunder!"
-request.sent_success: "&a&lTeleportationsanmodning sendt til &6&l<target>!"
-request.timeout_notice: "&a&lAnmodningen er gyldig i &6&l<seconds> &a&lsekunder!"
-request.expired_from: "&c&lTeleportationsanmodning fra &6&l<target> &c&ler udløbet!"
-request.expired_to: "&c&lDin anmodning til &6&l<target> &c&ler udløbet!"
+request.to_here: "&aSpiller &6<target> &avil teleportere til dig. Anmodning udløber om &6<seconds> &asekunder!"
+request.to_target: "&aSpiller &6<target> &ainviterer dig til deres position. Anmodning udløber om &6<seconds> &asekunder!"
+request.sent_success: "&aTeleportationsanmodning sendt til &6<target>!"
+request.timeout_notice: "&aAnmodningen er gyldig i &6<seconds> &asekunder!"
+request.expired_from: "&cTeleportationsanmodning fra &6<target> &cer udløbet!"
+request.expired_to: "&cDin anmodning til &6<target> &cer udløbet!"
 
 #=======================
 # Hjem
 #=======================
-home.list_header: "&a&lTilgængelige hjem:"
-home.set_success: "&a&lDu har sat hjemmet &6&l<target>"
-home.default_set_success: "&a&lDu har sat &6&l<target> &a&lsom standardhjem"
-home.delete_success: "&a&lDu har slettet hjemmet &6&l<target>"
-home.teleport_success: "&a&lDu er teleporteret til hjemmet &6&l<target>"
-home.max_limit_error: "&c&lDu kan maksimalt have <max_home_amount> hjem!"
-error.default_home_already_set: "&6&l<target> &c&ler allerede dit standardhjem"
+home.list_header: "&aTilgængelige hjem:"
+home.set_success: "&aDu har sat hjemmet &6<target>"
+home.default_set_success: "&aDu har sat &6<target> &asom standardhjem"
+home.delete_success: "&aDu har slettet hjemmet &6<target>"
+home.teleport_success: "&aDu er teleporteret til hjemmet &6<target>"
+home.max_limit_error: "&cDu kan maksimalt have <max_home_amount> hjem!"
+error.default_home_already_set: "&6<target> &cer allerede dit standardhjem"
 
 #=======================
 # Teleportationspunkter
 #=======================
-warp.list_header: "&a&lTilgængelige teleportationspunkter:"
-warp.set_success: "&a&lDu har sat teleportationspunktet &6&l<target>"
-warp.delete_success: "&a&lDu har slettet teleportationspunktet &6&l<target>"
-warp.teleport_success: "&a&lDu er teleporteret til &6&l<target>"
+warp.list_header: "&aTilgængelige teleportationspunkter:"
+warp.set_success: "&aDu har sat teleportationspunktet &6<target>"
+warp.delete_success: "&aDu har slettet teleportationspunktet &6<target>"
+warp.teleport_success: "&aDu er teleporteret til &6<target>"
 
 #=======================
 # Spawn
 #=======================
-spawn.set_success: "&a&lDu har sat spawnpunktet"
-spawn.delete_success: "&a&lDu har slettet spawnpunktet"
-spawn.teleport_success: "&a&lDu er teleporteret til spawn!"
+spawn.set_success: "&aDu har sat spawnpunktet"
+spawn.delete_success: "&aDu har slettet spawnpunktet"
+spawn.teleport_success: "&aDu er teleporteret til spawn!"
 
 #=======================
 # Sidste position
 #=======================
-back.teleport_success: "&a&lDu er teleporteret til din sidste position!"
+back.teleport_success: "&aDu er teleporteret til din sidste position!"
 
 #=======================
 # Tilfældig teleportation
 #=======================
-rtp.generating: "&a&lGenererer tilfældigt teleportationspunkt, vent venligst..."
-rtp.success: "&a&lDu er teleporteret til et tilfældigt sted!"
-rtp.failed: "&c&lKunne ikke generere teleportationspunkt!"
+rtp.generating: "&aGenererer tilfældigt teleportationspunkt, vent venligst..."
+rtp.success: "&aDu er teleporteret til et tilfældigt sted!"
+rtp.failed: "&cKunne ikke generere teleportationspunkt!"
 
 #=======================
 # Sortliste
 #=======================
-blacklist.list_header: "&a&lDin sortliste:"
-blacklist.add_success: "&a&lDu har blokeret &6&l<target>"
-blacklist.remove_success: "&a&lDu har fjernet blokeringen af &6&l<target>"
+blacklist.list_header: "&aDin sortliste:"
+blacklist.add_success: "&aDu har blokeret &6<target>"
+blacklist.remove_success: "&aDu har fjernet blokeringen af &6<target>"
 
 #=======================
 # Fejlmeddelelser
 #=======================
 ## Kommandostatus
-error.command_disabled: "&c&lDenne kommando er deaktiveret!"
-error.world_disabled: "&c&lDenne kommando er ikke tilgængelig i denne verden!"
-error.command_cooldown: "&c&lVent venligst <seconds> sekunder før brug!"
+error.command_disabled: "&cDenne kommando er deaktiveret!"
+error.world_disabled: "&cDenne kommando er ikke tilgængelig i denne verden!"
+error.command_cooldown: "&cVent venligst <seconds> sekunder før brug!"
 
 ## Tilladelser
-error.console_restricted: "&c&lKun spillere kan bruge denne kommando!"
-error.permission_denied: "&c&lManglende tilladelse!"
+error.console_restricted: "&cKun spillere kan bruge denne kommando!"
+error.permission_denied: "&cManglende tilladelse!"
 
 ## Spillerstatus
-error.no_online_players: "&c&lIngen spillere online!"
-error.target_offline: "&c&lSpiller &6&l<target> &c&ler offline!"
-error.self_operation: "&c&lKan ikke bruges på dig selv!"
+error.no_online_players: "&cIngen spillere online!"
+error.target_offline: "&cSpiller &6<target> &cer offline!"
+error.self_operation: "&cKan ikke bruges på dig selv!"
 
 ## Anmodningsstatus
-error.no_pending_request: "&c&lIngen ventende anmodninger!"
-error.request_pending: "&c&lDer er allerede en aktiv anmodning"
+error.no_pending_request: "&cIngen ventende anmodninger!"
+error.request_pending: "&cDer er allerede en aktiv anmodning"
 
 ## Sortliste
-error.already_blacklisted: "&c&lSpilleren er allerede blokeret!"
-error.blocked_by_target: "&c&lDu er blokeret af denne spiller!"
-error.blacklist_empty: "&c&lDin sortliste er tom!"
-error.not_blacklisted: "&c&lSpilleren er ikke blokeret!"
+error.already_blacklisted: "&cSpilleren er allerede blokeret!"
+error.blocked_by_target: "&cDu er blokeret af denne spiller!"
+error.blacklist_empty: "&cDin sortliste er tom!"
+error.not_blacklisted: "&cSpilleren er ikke blokeret!"
 
 ## Hjem
-error.home_not_found: "&c&lHjemmet <target> findes ikke!"
-error.no_homes_set: "&c&lDu har ingen hjem defineret!"
-error.no_default_home: "&c&lIntet standardhjem sat!"
+error.home_not_found: "&cHjemmet <target> findes ikke!"
+error.no_homes_set: "&cDu har ingen hjem defineret!"
+error.no_default_home: "&cIntet standardhjem sat!"
 
 ## Teleportationspunkter
-error.warp_not_found: "&c&lTeleportationspunktet <target> findes ikke!"
-error.no_warps_set: "&c&lIngen teleportationspunkter tilgængelige!"
+error.warp_not_found: "&cTeleportationspunktet <target> findes ikke!"
+error.no_warps_set: "&cIngen teleportationspunkter tilgængelige!"
 
 ## Positionsdata
-error.last_location_missing: "&c&lIngen sidste position registreret!"
-error.logout_location_missing: "&c&lIngen logud-position registreret!"
-error.spawn_not_set: "&c&lIntet spawnpunkt defineret!"
+error.last_location_missing: "&cIngen sidste position registreret!"
+error.logout_location_missing: "&cIngen logud-position registreret!"
+error.spawn_not_set: "&cIntet spawnpunkt defineret!"
 
 ## Kommandosyntaks
-error.syntax_generic: "&c&lUgyldig kommando! Brug: /<command>"
-error.syntax_tpa: "&c&lUgyldig kommando! Brug: /<command> <spillernavn>"
-error.syntax_tpall: "&c&lUgyldig kommando! Brug: /<command> [spiller/warp/spawn] [navn]"
-error.syntax_warp: "&c&lUgyldig kommando! Brug: /<command> <teleportationspunkt>"
-error.syntax_home: "&c&lUgyldig kommando! Brug: /<command> <hjemnavn>"
+error.syntax_generic: "&cUgyldig kommando! Brug: /<command>"
+error.syntax_tpa: "&cUgyldig kommando! Brug: /<command> <spillernavn>"
+error.syntax_tpall: "&cUgyldig kommando! Brug: /<command> [spiller/warp/spawn] [navn]"
+error.syntax_warp: "&cUgyldig kommando! Brug: /<command> <teleportationspunkt>"
+error.syntax_home: "&cUgyldig kommando! Brug: /<command> <hjemnavn>"
 
 ## Systemfejl
-error.config_not_found: "&c&lKonfigurationsfil mangler - genererer ny!"
-error.runtime: "&c&lPluginfejl: <message>"
-error.forwarded_error: "&c&lFejl fra &6&l<target>:"
+error.config_not_found: "&cKonfigurationsfil mangler - genererer ny!"
+error.runtime: "&cPluginfejl: <message>"
+error.forwarded_error: "&cFejl fra &6<target>:"
 
 #=======================
 # Teleportationsprocessen
 #=======================
-teleport.accept.self: "&a&lDu accepterede anmodning fra &6&l<target>!"
-teleport.accept.target: "&a&lSpiller &6&l<target> &a&laccepterede din anmodning!"
-teleport.deny.self: "&c&lDu afslog anmodning fra &6&l<target>!"
-teleport.deny.target: "&c&lSpiller &6&l<target> &c&lafslog din anmodning!"
-teleport.countdown: "&a&lTeleportation om &6&l<seconds> &a&lsekunder til &6&l<target>"
-teleport.cancel_on_move: "&a&lBevægelse annullerer teleportation!"
-teleport.canceled.self: "&c&lTeleportation annulleret!"
-teleport.canceled.target: "&c&lModpart annullerede teleportation!"
-teleport.generic_success: "&a&lTeleporteret til &6&l<target>"
-teleport.tpall.to_target: "&a&lEn admin har teleporteret dig til &6&l<target>"
-teleport.tpall.to_self: "&a&lEn admin teleporterede alle spillere til dig"
-teleport.tpall.success: "&a&lAlle spillere teleporteret til &6&l<target>"
-teleport.logout_location: "&a&lTeleporteret til &6&l<target>s logud-position"
+teleport.accept.self: "&aDu accepterede anmodning fra &6<target>!"
+teleport.accept.target: "&aSpiller &6<target> &aaccepterede din anmodning!"
+teleport.deny.self: "&cDu afslog anmodning fra &6<target>!"
+teleport.deny.target: "&cSpiller &6<target> &cafslog din anmodning!"
+teleport.countdown: "&aTeleportation om &6<seconds> &asekunder til &6<target>"
+teleport.cancel_on_move: "&aBevægelse annullerer teleportation!"
+teleport.canceled.self: "&cTeleportation annulleret!"
+teleport.canceled.target: "&cModpart annullerede teleportation!"
+teleport.generic_success: "&aTeleporteret til &6<target>"
+teleport.tpall.to_target: "&aEn admin har teleporteret dig til &6<target>"
+teleport.tpall.to_self: "&aEn admin teleporterede alle spillere til dig"
+teleport.tpall.success: "&aAlle spillere teleporteret til &6<target>"
+teleport.logout_location: "&aTeleporteret til &6<target>s logud-position"
 
 #=======================
 # Systembeskeder
 #=======================
-system.config_reloaded: "&a&lKonfiguration genindlæst!"
-system.plugin_loaded: "&a&lPlugin indlæst! Version: &6&l<target>"
-system.plugin_unloaded: "&c&lPlugin afsluttet!"
-system.config_migrated_success: "&a&lKonfiguration migreret!"
-system.config_migrated: "&a&lÆldre konfiguration fundet - migrerer (backup i backup-mappen)"
+system.config_reloaded: "&aKonfiguration genindlæst!"
+system.plugin_loaded: "&aPlugin indlæst! Version: &6<target>"
+system.plugin_unloaded: "&cPlugin afsluttet!"
+system.config_migrated_success: "&aKonfiguration migreret!"
+system.config_migrated: "&aÆldre konfiguration fundet - migrerer (backup i backup-mappen)"
 system.debug_warning: "Advarsel: Debug-tilstand er aktiv - deaktiver efter brug!"
 
 #=======================
 # Opdateringer
 #=======================
-update.checking: "&a&lSøger efter opdateringer..."
-update.available: "&a&lNy version tilgængelig: &6&lTPA-v<target> &a&lhent den fra &6&lhttps://modrinth.com/plugin/tpa.66666/versions"
-update.latest: "&a&lDu kører den seneste version"
-update.failed: "&c&lKunne ikke tjekke for opdateringer!"
+update.checking: "&aSøger efter opdateringer..."
+update.available: "&aNy version tilgængelig: &6TPA-v<target> &ahent den fra &6https://modrinth.com/plugin/tpa.66666/versions"
+update.latest: "&aDu kører den seneste version"
+update.failed: "&cKunne ikke tjekke for opdateringer!"

@@ -3,178 +3,178 @@
 #=======================
 # Основные настройки
 #=======================
-prefix: "&a&l> "
-console_prefix: "&7&l[TPA] "
+prefix: "&a> "
+console_prefix: "&7[TPA] "
 not_online_players: "Нет игроков онлайн"
 not_warps: "Нет доступных точек телепортации"
 not_homes: "Нет доступных домов"
 spawn_name: "Главный город"
 rtp_name: "Случайная точка телепортации"
 last_location: "Предыдущая позиция"
-lang.set_success: "&a&lЯзык клиента установлен: &6&l<target>"
+lang.set_success: "&aЯзык клиента установлен: &6<target>"
 
 #=======================
 # Взаимодействие с кнопками
 #=======================
 ## Текст кнопок
-accept_button: "&a&l[Принять]"
-deny_button: "&c&l[Отклонить]"
-blacklist.add_button: "&c&l[Заблокировать]"
-blacklist.remove_button: "&a&l[Разблокировать]"
-teleport_button: "&a&l[Телепорт]"
-location_set_button: "&6&l[Установить позицию]"
-default_home_set_button: "&e&l[Дом по умолчанию]"
-delete_button: "&c&l[Удалить]"
+accept_button: "&a[Принять]"
+deny_button: "&c[Отклонить]"
+blacklist.add_button: "&c[Заблокировать]"
+blacklist.remove_button: "&a[Разблокировать]"
+teleport_button: "&a[Телепорт]"
+location_set_button: "&6[Установить позицию]"
+default_home_set_button: "&e[Дом по умолчанию]"
+delete_button: "&c[Удалить]"
 
 ## Подсказки кнопок
-accept_click_hint: "&a&lКликните чтобы принять"
-deny_click_hint: "&c&lКликните чтобы отказать"
-blacklist.add_hint: "&c&lКликните чтобы заблокировать"
-blacklist.remove_hint: "&a&lКликните чтобы разблокировать"
-teleport_click_hint: "&a&lКликните для телепорта"
-set_location_hint: "&6&lКликните чтобы установить позицию"
-set_default_home_hint: "&e&lКликните чтобы установить дом"
-delete_click_hint: "&c&lКликните чтобы удалить"
+accept_click_hint: "&aКликните чтобы принять"
+deny_click_hint: "&cКликните чтобы отказать"
+blacklist.add_hint: "&cКликните чтобы заблокировать"
+blacklist.remove_hint: "&aКликните чтобы разблокировать"
+teleport_click_hint: "&aКликните для телепорта"
+set_location_hint: "&6Кликните чтобы установить позицию"
+set_default_home_hint: "&eКликните чтобы установить дом"
+delete_click_hint: "&cКликните чтобы удалить"
 
 #=======================
 # Запросы телепортации
 #=======================
-request.to_here: "&a&lИгрок &6&l<target> &a&lхочет телепортироваться к вам! (Истекает через &6&l<seconds>&a&l сек)"
-request.to_target: "&a&lИгрок &6&l<target> &a&lприглашает вас! (Истекает через &6&l<seconds>&a&l сек)"
-request.sent_success: "&a&lЗапрос отправлен игроку &6&l<target>&a&l!"
-request.timeout_notice: "&a&lДействителен &6&l<seconds>&a&l секунд"
-request.expired_from: "&c&lЗапрос от &6&l<target>&c&l истёк!"
-request.expired_to: "&c&lВаш запрос к &6&l<target>&c&l истёк!"
+request.to_here: "&aИгрок &6<target> &aхочет телепортироваться к вам! (Истекает через &6<seconds>&a сек)"
+request.to_target: "&aИгрок &6<target> &aприглашает вас! (Истекает через &6<seconds>&a сек)"
+request.sent_success: "&aЗапрос отправлен игроку &6<target>&a!"
+request.timeout_notice: "&aДействителен &6<seconds>&a секунд"
+request.expired_from: "&cЗапрос от &6<target>&c истёк!"
+request.expired_to: "&cВаш запрос к &6<target>&c истёк!"
 
 #=======================
 # Система домов
 #=======================
-home.list_header: "&a&lДоступные дома:"
-home.set_success: "&a&lДом &6&l<target>&a&l установлен"
-home.default_set_success: "&a&lДом &6&l<target>&a&l - теперь основной"
-home.delete_success: "&a&lДом &6&l<target>&a&l удалён"
-home.teleport_success: "&a&lТелепортирован в дом &6&l<target>"
-home.max_limit_error: "&c&lМаксимум &6&l<max_home_amount>&c&l домов!"
-error.default_home_already_set: "&6&l<target>&c&l уже основной дом"
+home.list_header: "&aДоступные дома:"
+home.set_success: "&aДом &6<target>&a установлен"
+home.default_set_success: "&aДом &6<target>&a - теперь основной"
+home.delete_success: "&aДом &6<target>&a удалён"
+home.teleport_success: "&aТелепортирован в дом &6<target>"
+home.max_limit_error: "&cМаксимум &6<max_home_amount>&c домов!"
+error.default_home_already_set: "&6<target>&c уже основной дом"
 
 #=======================
 # Система точек телепортации
 #=======================
-warp.list_header: "&a&lДоступные точки:"
-warp.set_success: "&a&lТочка &6&l<target>&a&l создана"
-warp.delete_success: "&a&lТочка &6&l<target>&a&l удалена"
-warp.teleport_success: "&a&lТелепортирован к точке &6&l<target>"
+warp.list_header: "&aДоступные точки:"
+warp.set_success: "&aТочка &6<target>&a создана"
+warp.delete_success: "&aТочка &6<target>&a удалена"
+warp.teleport_success: "&aТелепортирован к точке &6<target>"
 
 #=======================
 # Главный город
 #=======================
-spawn.set_success: "&a&lГлавный город установлен"
-spawn.delete_success: "&a&lГлавный город удалён"
-spawn.teleport_success: "&a&lТелепортирован в главный город!"
+spawn.set_success: "&aГлавный город установлен"
+spawn.delete_success: "&aГлавный город удалён"
+spawn.teleport_success: "&aТелепортирован в главный город!"
 
 #=======================
 # Последняя позиция
 #=======================
-back.teleport_success: "&a&lТелепортирован к предыдущей позиции!"
+back.teleport_success: "&aТелепортирован к предыдущей позиции!"
 
 #=======================
 # Случайный телепорт
 #=======================
-rtp.generating: "&a&lГенерация случайной точки..."
-rtp.success: "&a&lТелепортирован в случайную точку!"
-rtp.failed: "&c&lОшибка генерации!"
+rtp.generating: "&aГенерация случайной точки..."
+rtp.success: "&aТелепортирован в случайную точку!"
+rtp.failed: "&cОшибка генерации!"
 
 #=======================
 # Чёрный список
 #=======================
-blacklist.list_header: "&a&lВаш чёрный список:"
-blacklist.add_success: "&a&lИгрок &6&l<target>&a&l заблокирован"
-blacklist.remove_success: "&a&lИгрок &6&l<target>&a&l разблокирован"
+blacklist.list_header: "&aВаш чёрный список:"
+blacklist.add_success: "&aИгрок &6<target>&a заблокирован"
+blacklist.remove_success: "&aИгрок &6<target>&a разблокирован"
 
 #=======================
 # Ошибки
 #=======================
 ## Статус команд
-error.command_disabled: "&c&lКоманда отключена!"
-error.world_disabled: "&c&lНедоступно в этом мире!"
-error.command_cooldown: "&c&lПодождите &6&l<seconds>&c&l сек!"
+error.command_disabled: "&cКоманда отключена!"
+error.world_disabled: "&cНедоступно в этом мире!"
+error.command_cooldown: "&cПодождите &6<seconds>&c сек!"
 
 ## Права
-error.console_restricted: "&c&lТолько для игроков!"
-error.permission_denied: "&c&lНет прав доступа!"
+error.console_restricted: "&cТолько для игроков!"
+error.permission_denied: "&cНет прав доступа!"
 
 ## Статус игроков
-error.no_online_players: "&c&lНет игроков онлайн!"
-error.target_offline: "&c&lИгрок &6&l<target>&c&l оффлайн!"
-error.self_operation: "&c&lНельзя использовать на себе!"
+error.no_online_players: "&cНет игроков онлайн!"
+error.target_offline: "&cИгрок &6<target>&c оффлайн!"
+error.self_operation: "&cНельзя использовать на себе!"
 
 ## Запросы
-error.no_pending_request: "&c&lНет активных запросов!"
-error.request_pending: "&c&lЕсть активный запрос!"
+error.no_pending_request: "&cНет активных запросов!"
+error.request_pending: "&cЕсть активный запрос!"
 
 ## Чёрный список
-error.already_blacklisted: "&c&lУже в чёрном списке!"
-error.blocked_by_target: "&c&lВы заблокированы игроком!"
-error.blacklist_empty: "&c&lЧёрный список пуст!"
-error.not_blacklisted: "&c&lНе в чёрном списке!"
+error.already_blacklisted: "&cУже в чёрном списке!"
+error.blocked_by_target: "&cВы заблокированы игроком!"
+error.blacklist_empty: "&cЧёрный список пуст!"
+error.not_blacklisted: "&cНе в чёрном списке!"
 
 ## Дома
-error.home_not_found: "&c&lДом &6&l<target>&c&l не найден!"
-error.no_homes_set: "&c&lДома не установлены!"
-error.no_default_home: "&c&lОсновной дом не задан!"
+error.home_not_found: "&cДом &6<target>&c не найден!"
+error.no_homes_set: "&cДома не установлены!"
+error.no_default_home: "&cОсновной дом не задан!"
 
 ## Точки телепортации
-error.warp_not_found: "&c&lТочка &6&l<target>&c&l не найдена!"
-error.no_warps_set: "&c&lНет доступных точек!"
+error.warp_not_found: "&cТочка &6<target>&c не найдена!"
+error.no_warps_set: "&cНет доступных точек!"
 
 ## Позиции
-error.last_location_missing: "&c&lНет данных о позиции!"
-error.logout_location_missing: "&c&lНет данных о выходе!"
-error.spawn_not_set: "&c&lГлавный город не установлен!"
+error.last_location_missing: "&cНет данных о позиции!"
+error.logout_location_missing: "&cНет данных о выходе!"
+error.spawn_not_set: "&cГлавный город не установлен!"
 
 ## Синтаксис
-error.syntax_generic: "&c&lОшибка синтаксиса: /<command>"
-error.syntax_tpa: "&c&lОшибка синтаксиса: /<command> <никнейм>"
-error.syntax_tpall: "&c&lОшибка синтаксиса: /<command> [player/warp/spawn] [имя]"
-error.syntax_warp: "&c&lОшибка синтаксиса: /<command> <точка>"
-error.syntax_home: "&c&lОшибка синтаксиса: /<command> <дом>"
+error.syntax_generic: "&cОшибка синтаксиса: /<command>"
+error.syntax_tpa: "&cОшибка синтаксиса: /<command> <никнейм>"
+error.syntax_tpall: "&cОшибка синтаксиса: /<command> [player/warp/spawn] [имя]"
+error.syntax_warp: "&cОшибка синтаксиса: /<command> <точка>"
+error.syntax_home: "&cОшибка синтаксиса: /<command> <дом>"
 
 ## Системные
-error.config_not_found: "&c&lКонфиг пересоздан!"
-error.runtime: "&c&lОшибка плагина: <message>"
-error.forwarded_error: "&c&lОшибка от &6&l<target>:"
+error.config_not_found: "&cКонфиг пересоздан!"
+error.runtime: "&cОшибка плагина: <message>"
+error.forwarded_error: "&cОшибка от &6<target>:"
 
 #=======================
 # Процесс телепортации
 #=======================
-teleport.accept.self: "&a&lВы приняли запрос от &6&l<target>!"
-teleport.accept.target: "&a&lИгрок &6&l<target>&a&l принял ваш запрос!"
-teleport.deny.self: "&c&lВы отклонили запрос от &6&l<target>!"
-teleport.deny.target: "&c&lИгрок &6&l<target>&c&l отклонил ваш запрос!"
-teleport.countdown: "&a&lТелепорт через &6&l<seconds>&a&l сек к &6&l<target>"
-teleport.cancel_on_move: "&a&lДвижение отменяет телепорт!"
-teleport.canceled.self: "&c&lТелепорт отменён!"
-teleport.canceled.target: "&c&lЦель отменила телепорт!"
-teleport.generic_success: "&a&lТелепортирован к &6&l<target>"
-teleport.tpall.to_target: "&a&lАдминистратор телепортировал вас к &6&l<target>"
-teleport.tpall.to_self: "&a&lАдминистратор переместил всех игроков к вам"
-teleport.tpall.success: "&a&lВсе игроки телепортированы к &6&l<target>"
-teleport.logout_location: "&a&lТелепортирован к последней точке выхода &6&l<target>"
+teleport.accept.self: "&aВы приняли запрос от &6<target>!"
+teleport.accept.target: "&aИгрок &6<target>&a принял ваш запрос!"
+teleport.deny.self: "&cВы отклонили запрос от &6<target>!"
+teleport.deny.target: "&cИгрок &6<target>&c отклонил ваш запрос!"
+teleport.countdown: "&aТелепорт через &6<seconds>&a сек к &6<target>"
+teleport.cancel_on_move: "&aДвижение отменяет телепорт!"
+teleport.canceled.self: "&cТелепорт отменён!"
+teleport.canceled.target: "&cЦель отменила телепорт!"
+teleport.generic_success: "&aТелепортирован к &6<target>"
+teleport.tpall.to_target: "&aАдминистратор телепортировал вас к &6<target>"
+teleport.tpall.to_self: "&aАдминистратор переместил всех игроков к вам"
+teleport.tpall.success: "&aВсе игроки телепортированы к &6<target>"
+teleport.logout_location: "&aТелепортирован к последней точке выхода &6<target>"
 
 #=======================
 # Системные сообщения
 #=======================
-system.config_reloaded: "&a&lКонфиг перезагружен!"
-system.plugin_loaded: "&a&lПлагин загружен! Версия: &6&l<target>"
-system.plugin_unloaded: "&c&lПлагин выгружен!"
-system.config_migrated_success: "&a&lМиграция конфига завершена!"
-system.config_migrated: "&a&lОбнаружен старый конфиг (авторезерв в backup)"
-system.debug_warning: "&c&lРежим отладки включён! Не забудьте отключить!"
+system.config_reloaded: "&aКонфиг перезагружен!"
+system.plugin_loaded: "&aПлагин загружен! Версия: &6<target>"
+system.plugin_unloaded: "&cПлагин выгружен!"
+system.config_migrated_success: "&aМиграция конфига завершена!"
+system.config_migrated: "&aОбнаружен старый конфиг (авторезерв в backup)"
+system.debug_warning: "&cРежим отладки включён! Не забудьте отключить!"
 
 #=======================
 # Обновления
 #=======================
-update.checking: "&a&lПроверка обновлений..."
-update.available: "&a&lДоступна новая версия: &6&lTPA-v<target>&a&l - &6&lhttps://modrinth.com/plugin/tpa.66666/versions"
-update.latest: "&a&lУстановлена актуальная версия"
-update.failed: "&c&lОшибка проверки обновлений!"
+update.checking: "&aПроверка обновлений..."
+update.available: "&aДоступна новая версия: &6TPA-v<target>&a - &6https://modrinth.com/plugin/tpa.66666/versions"
+update.latest: "&aУстановлена актуальная версия"
+update.failed: "&cОшибка проверки обновлений!"

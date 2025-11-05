@@ -3,178 +3,178 @@
 #=======================
 # Osnovne nastavitve
 #=======================
-prefix: "&a&l> "
-console_prefix: "&7&l[TPA] "
+prefix: "&a> "
+console_prefix: "&7[TPA] "
 not_online_players: "Ni aktivnih igralcev"
 not_warps: "Ni dostopnih warp točk"
 not_homes: "Ni nastavljenih domov"
 spawn_name: "Začetna točka"
 rtp_name: "Naključna teleportacija"
 last_location: "Zadnja lokacija"
-lang.set_success: "&a&lJezik nastavljen na &6&l<target>"
+lang.set_success: "&aJezik nastavljen na &6<target>"
 
 #=======================
 # Interakcije s tipkami
 #=======================
 ## Besedilo tipk
-accept_button: "&a&l[Sprejmi]"
-deny_button: "&c&l[Zavrni]"
-blacklist.add_button: "&c&l[Blokiraj]"
-blacklist.remove_button: "&a&l[Odblokiraj]"
-teleport_button: "&a&l[Teleportiraj]"
-location_set_button: "&6&l[Nastavi lokacijo]"
-default_home_set_button: "&e&l[Privzeti dom]"
-delete_button: "&c&l[Izbriši]"
+accept_button: "&a[Sprejmi]"
+deny_button: "&c[Zavrni]"
+blacklist.add_button: "&c[Blokiraj]"
+blacklist.remove_button: "&a[Odblokiraj]"
+teleport_button: "&a[Teleportiraj]"
+location_set_button: "&6[Nastavi lokacijo]"
+default_home_set_button: "&e[Privzeti dom]"
+delete_button: "&c[Izbriši]"
 
 ## Namigi za tipke
-accept_click_hint: "&a&lKlikni za sprejem"
-deny_click_hint: "&c&lKlikni za zavrnitev"
-blacklist.add_hint: "&c&lDodaj na črni seznam"
-blacklist.remove_hint: "&a&lOdstrani s črnega seznama"
-teleport_click_hint: "&a&lTakojšnja teleportacija"
-set_location_hint: "&6&lNastavi trenutno lokacijo"
-set_default_home_hint: "&e&lNastavi kot privzeti dom"
-delete_click_hint: "&c&lTrajno izbriši"
+accept_click_hint: "&aKlikni za sprejem"
+deny_click_hint: "&cKlikni za zavrnitev"
+blacklist.add_hint: "&cDodaj na črni seznam"
+blacklist.remove_hint: "&aOdstrani s črnega seznama"
+teleport_click_hint: "&aTakojšnja teleportacija"
+set_location_hint: "&6Nastavi trenutno lokacijo"
+set_default_home_hint: "&eNastavi kot privzeti dom"
+delete_click_hint: "&cTrajno izbriši"
 
 #=======================
 # Zahtevki za teleportacijo
 #=======================
-request.to_here: "&a&lIgralec &6&l<target> &a&lželi k tebi! (&6&l<seconds>s&a&l)"
-request.to_target: "&a&lIgralec &6&l<target> &a&lte vabi k sebi! (&6&l<seconds>s&a&l)"
-request.sent_success: "&a&lZahtevek poslan &6&l<target>"
-request.timeout_notice: "&a&lVeljavno &6&l<seconds> &a&lsekund"
-request.expired_from: "&c&lZahtevek od &6&l<target> &c&lje potekel"
-request.expired_to: "&c&lTvoj zahtevek za &6&l<target> &c&lje potekel"
+request.to_here: "&aIgralec &6<target> &aželi k tebi! (&6<seconds>s&a)"
+request.to_target: "&aIgralec &6<target> &ate vabi k sebi! (&6<seconds>s&a)"
+request.sent_success: "&aZahtevek poslan &6<target>"
+request.timeout_notice: "&aVeljavno &6<seconds> &asekund"
+request.expired_from: "&cZahtevek od &6<target> &cje potekel"
+request.expired_to: "&cTvoj zahtevek za &6<target> &cje potekel"
 
 #=======================
 # Domače lokacije
 #=======================
-home.list_header: "&a&lDostopni domovi:"
-home.set_success: "&a&lDom &6&l<target> &a&lnastavljen"
-home.default_set_success: "&a&lPrivzeti dom &6&l<target>"
-home.delete_success: "&a&lDom &6&l<target> &a&lizbrisan"
-home.teleport_success: "&a&lTeleportiran v dom &6&l<target>"
-home.max_limit_error: "&c&lMaksimalno &6&l<max_home_amount> &c&ldomov"
-error.default_home_already_set: "&6&l<target> &c&lje že privzet dom"
+home.list_header: "&aDostopni domovi:"
+home.set_success: "&aDom &6<target> &anastavljen"
+home.default_set_success: "&aPrivzeti dom &6<target>"
+home.delete_success: "&aDom &6<target> &aizbrisan"
+home.teleport_success: "&aTeleportiran v dom &6<target>"
+home.max_limit_error: "&cMaksimalno &6<max_home_amount> &cdomov"
+error.default_home_already_set: "&6<target> &cje že privzet dom"
 
 #=======================
 # Warp točke
 #=======================
-warp.list_header: "&a&lDostopni warpi:"
-warp.set_success: "&a&lWarp &6&l<target> &a&lnastavljen"
-warp.delete_success: "&a&lWarp &6&l<target> &a&lizbrisan"
-warp.teleport_success: "&a&lTeleportiran na warp &6&l<target>"
+warp.list_header: "&aDostopni warpi:"
+warp.set_success: "&aWarp &6<target> &anastavljen"
+warp.delete_success: "&aWarp &6<target> &aizbrisan"
+warp.teleport_success: "&aTeleportiran na warp &6<target>"
 
 #=======================
 # Začetna točka
 #=======================
-spawn.set_success: "&a&lZačetna točka nastavljena"
-spawn.delete_success: "&a&lZačetna točka odstranjena"
-spawn.teleport_success: "&a&lTeleportiran na začetno točko!"
+spawn.set_success: "&aZačetna točka nastavljena"
+spawn.delete_success: "&aZačetna točka odstranjena"
+spawn.teleport_success: "&aTeleportiran na začetno točko!"
 
 #=======================
 # Zadnja lokacija
 #=======================
-back.teleport_success: "&a&lVrnjen na zadnjo lokacijo!"
+back.teleport_success: "&aVrnjen na zadnjo lokacijo!"
 
 #=======================
 # Naključna teleportacija
 #=======================
-rtp.generating: "&a&lGeneriranje naključne lokacije..."
-rtp.success: "&a&lUspešna naključna teleportacija!"
-rtp.failed: "&c&lNapaka pri teleportaciji!"
+rtp.generating: "&aGeneriranje naključne lokacije..."
+rtp.success: "&aUspešna naključna teleportacija!"
+rtp.failed: "&cNapaka pri teleportaciji!"
 
 #=======================
 # Črni seznam
 #=======================
-blacklist.list_header: "&a&lTvoj črni seznam:"
-blacklist.add_success: "&a&l&6&l<target> &a&ldodan na seznam"
-blacklist.remove_success: "&a&l&6&l<target> &a&lodstranjen s seznama"
+blacklist.list_header: "&aTvoj črni seznam:"
+blacklist.add_success: "&a&6<target> &adodan na seznam"
+blacklist.remove_success: "&a&6<target> &aodstranjen s seznama"
 
 #=======================
 # Napake in opozorila
 #=======================
 ## Status ukazov
-error.command_disabled: "&c&lUkaz onemogočen"
-error.world_disabled: "&c&lNedostopno v tem svetu"
-error.command_cooldown: "&c&lPočakaj &6&l<seconds>s"
+error.command_disabled: "&cUkaz onemogočen"
+error.world_disabled: "&cNedostopno v tem svetu"
+error.command_cooldown: "&cPočakaj &6<seconds>s"
 
 ## Dovoljenja
-error.console_restricted: "&c&lSamo za igralce"
-error.permission_denied: "&c&lNimaš dovoljenja!"
+error.console_restricted: "&cSamo za igralce"
+error.permission_denied: "&cNimaš dovoljenja!"
 
 ## Status igralca
-error.no_online_players: "&c&lNi aktivnih igralcev"
-error.target_offline: "&c&lIgralec &6&l<target> &c&lje offline"
-error.self_operation: "&c&lNeveljavo za tebe"
+error.no_online_players: "&cNi aktivnih igralcev"
+error.target_offline: "&cIgralec &6<target> &cje offline"
+error.self_operation: "&cNeveljavo za tebe"
 
 ## Status zahtevkov
-error.no_pending_request: "&c&lNi čakajočih zahtevkov"
-error.request_pending: "&c&lAktivna zahteva v teku"
+error.no_pending_request: "&cNi čakajočih zahtevkov"
+error.request_pending: "&cAktivna zahteva v teku"
 
 ## Črni seznam
-error.already_blacklisted: "&c&lŽe na črnem seznamu"
-error.blocked_by_target: "&c&lBlokiran si"
-error.blacklist_empty: "&c&lČrn seznam je prazen"
-error.not_blacklisted: "&c&lNi na črnem seznamu"
+error.already_blacklisted: "&cŽe na črnem seznamu"
+error.blocked_by_target: "&cBlokiran si"
+error.blacklist_empty: "&cČrn seznam je prazen"
+error.not_blacklisted: "&cNi na črnem seznamu"
 
 ## Domače lokacije
-error.home_not_found: "&c&lDom &6&l<target> &c&lne obstaja"
-error.no_homes_set: "&c&lNi nastavljenih domov"
-error.no_default_home: "&c&lNi privzetega doma"
+error.home_not_found: "&cDom &6<target> &cne obstaja"
+error.no_homes_set: "&cNi nastavljenih domov"
+error.no_default_home: "&cNi privzetega doma"
 
 ## Warp točke
-error.warp_not_found: "&c&lWarp &6&l<target> &c&lne obstaja"
-error.no_warps_set: "&c&lNi dostopnih warpov"
+error.warp_not_found: "&cWarp &6<target> &cne obstaja"
+error.no_warps_set: "&cNi dostopnih warpov"
 
 ## Lokacijski zapisi
-error.last_location_missing: "&c&lNi zadnje lokacije"
-error.logout_location_missing: "&c&lNi zapisa odjave"
-error.spawn_not_set: "&c&lZačetna točka ni nastavljena"
+error.last_location_missing: "&cNi zadnje lokacije"
+error.logout_location_missing: "&cNi zapisa odjave"
+error.spawn_not_set: "&cZačetna točka ni nastavljena"
 
 ## Sintaksa ukazov
-error.syntax_generic: "&c&lNapačna sintaksa! Uporabi: /<command>"
-error.syntax_tpa: "&c&lNapačna sintaksa! Uporabi: /<command> <igralec>"
-error.syntax_tpall: "&c&lNapačna sintaksa! Uporabi: /<command> [player/warp/spawn] [ime]"
-error.syntax_warp: "&c&lNapačna sintaksa! Uporabi: /<command> <warp>"
-error.syntax_home: "&c&lNapačna sintaksa! Uporabi: /<command> <dom>"
+error.syntax_generic: "&cNapačna sintaksa! Uporabi: /<command>"
+error.syntax_tpa: "&cNapačna sintaksa! Uporabi: /<command> <igralec>"
+error.syntax_tpall: "&cNapačna sintaksa! Uporabi: /<command> [player/warp/spawn] [ime]"
+error.syntax_warp: "&cNapačna sintaksa! Uporabi: /<command> <warp>"
+error.syntax_home: "&cNapačna sintaksa! Uporabi: /<command> <dom>"
 
 ## Sistemske napake
-error.config_not_found: "&c&lKonfiguracija ponovno ustvarjena"
-error.runtime: "&c&lNapaka vtičnika: <message>"
-error.forwarded_error: "&c&lNapaka od &6&l<target>&c&l:"
+error.config_not_found: "&cKonfiguracija ponovno ustvarjena"
+error.runtime: "&cNapaka vtičnika: <message>"
+error.forwarded_error: "&cNapaka od &6<target>&c:"
 
 #=======================
 # Proces teleportacije
 #=======================
-teleport.accept.self: "&a&lSprejel si zahtevek od &6&l<target>"
-teleport.accept.target: "&a&l&6&l<target> &a&lje sprejel tvoj zahtevek"
-teleport.deny.self: "&c&lZavrnil si zahtevek od &6&l<target>"
-teleport.deny.target: "&c&l&6&l<target> &c&lje zavrnil tvoj zahtevek"
-teleport.countdown: "&a&lTeleportacija v &6&l<seconds>s"
-teleport.cancel_on_move: "&a&lPremik prekliče teleportacijo!"
-teleport.canceled.self: "&c&lTeleportacija preklicana"
-teleport.canceled.target: "&c&lPreklical drugi igralec"
-teleport.generic_success: "&a&lTeleportiran v &6&l<target>"
-teleport.tpall.to_target: "&a&lAdmin te je teleportiral v &6&l<target>"
-teleport.tpall.to_self: "&a&lAdmin je vse privedel k tebi"
-teleport.tpall.success: "&a&lVsi teleportirani v &6&l<target>"
-teleport.logout_location: "&a&lTeleportiran na zadnjo odjavo &6&l<target>"
+teleport.accept.self: "&aSprejel si zahtevek od &6<target>"
+teleport.accept.target: "&a&6<target> &aje sprejel tvoj zahtevek"
+teleport.deny.self: "&cZavrnil si zahtevek od &6<target>"
+teleport.deny.target: "&c&6<target> &cje zavrnil tvoj zahtevek"
+teleport.countdown: "&aTeleportacija v &6<seconds>s"
+teleport.cancel_on_move: "&aPremik prekliče teleportacijo!"
+teleport.canceled.self: "&cTeleportacija preklicana"
+teleport.canceled.target: "&cPreklical drugi igralec"
+teleport.generic_success: "&aTeleportiran v &6<target>"
+teleport.tpall.to_target: "&aAdmin te je teleportiral v &6<target>"
+teleport.tpall.to_self: "&aAdmin je vse privedel k tebi"
+teleport.tpall.success: "&aVsi teleportirani v &6<target>"
+teleport.logout_location: "&aTeleportiran na zadnjo odjavo &6<target>"
 
 #=======================
 # Sistemska sporočila
 #=======================
-system.config_reloaded: "&a&lKonfiguracija osvežena!"
-system.plugin_loaded: "&a&lVtičnik naložen! Verzija: &6&l<target>"
-system.plugin_unloaded: "&c&lVtičnik odstranjen!"
-system.config_migrated_success: "&a&lMigracija konfiguracije uspešna!"
-system.config_migrated: "&a&lStara konfiguracija migrirana (avtomatska varnostna kopija)"
-system.debug_warning: "&c&lDebug način aktiven - izklopi po uporabi!"
+system.config_reloaded: "&aKonfiguracija osvežena!"
+system.plugin_loaded: "&aVtičnik naložen! Verzija: &6<target>"
+system.plugin_unloaded: "&cVtičnik odstranjen!"
+system.config_migrated_success: "&aMigracija konfiguracije uspešna!"
+system.config_migrated: "&aStara konfiguracija migrirana (avtomatska varnostna kopija)"
+system.debug_warning: "&cDebug način aktiven - izklopi po uporabi!"
 
 #=======================
 # Posodobitve
 #=======================
-update.checking: "&a&lPreverjanje posodobitev..."
-update.available: "&a&lNova različica &6&lTPA-v<target>&a&l na voljo: https://modrinth.com/plugin/tpa.66666/versions"
-update.latest: "&a&lNajnovejša različica nameščena"
-update.failed: "&c&lPreverjanje posodobitev ni uspelo"
+update.checking: "&aPreverjanje posodobitev..."
+update.available: "&aNova različica &6TPA-v<target>&a na voljo: https://modrinth.com/plugin/tpa.66666/versions"
+update.latest: "&aNajnovejša različica nameščena"
+update.failed: "&cPreverjanje posodobitev ni uspelo"

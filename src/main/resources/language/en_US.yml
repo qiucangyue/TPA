@@ -3,178 +3,178 @@
 #=======================
 # Basic Configuration
 #=======================
-prefix: "&a&l> "
-console_prefix: "&7&l[TPA] "
+prefix: "&a> "
+console_prefix: "&7[TPA] "
 not_online_players: "No online players"
 not_warps: "No available warps"
 not_homes: "No available homes"
 spawn_name: "Spawn"
 rtp_name: "Random Teleport"
 last_location: "Last Location"
-lang.set_success: "&a&lClient language set to &6&l<target>"
+lang.set_success: "&aClient language set to &6<target>"
 
 #=======================
 # Button Interactions
 #=======================
 ## Button Texts
-accept_button: "&a&l[Accept]"
-deny_button: "&c&l[Deny]"
-blacklist.add_button: "&c&l[Deny and Blacklist]"
-blacklist.remove_button: "&a&l[Remove Blacklist]"
-teleport_button: "&a&l[Teleport]"
-location_set_button: "&6&l[Set Location]"
-default_home_set_button: "&e&l[Set Default Home]"
-delete_button: "&c&l[Delete]"
+accept_button: "&a[Accept]"
+deny_button: "&c[Deny]"
+blacklist.add_button: "&c[Deny and Blacklist]"
+blacklist.remove_button: "&a[Remove Blacklist]"
+teleport_button: "&a[Teleport]"
+location_set_button: "&6[Set Location]"
+default_home_set_button: "&e[Set Default Home]"
+delete_button: "&c[Delete]"
 
 ## Button Hints
-accept_click_hint: "&a&lClick to accept teleport"
-deny_click_hint: "&c&lClick to deny teleport"
-blacklist.add_hint: "&c&lClick to deny and blacklist"
-blacklist.remove_hint: "&a&lClick to remove from blacklist"
-teleport_click_hint: "&a&lClick to teleport"
-set_location_hint: "&6&lClick to set current location"
-set_default_home_hint: "&e&lClick to set as default home"
-delete_click_hint: "&c&lClick to delete"
+accept_click_hint: "&aClick to accept teleport"
+deny_click_hint: "&cClick to deny teleport"
+blacklist.add_hint: "&cClick to deny and blacklist"
+blacklist.remove_hint: "&aClick to remove from blacklist"
+teleport_click_hint: "&aClick to teleport"
+set_location_hint: "&6Click to set current location"
+set_default_home_hint: "&eClick to set as default home"
+delete_click_hint: "&cClick to delete"
 
 #=======================
 # Teleport Requests
 #=======================
-request.to_here: "&a&lPlayer &6&l<target>&a&l wants to teleport to you! Expires in &6&l<seconds>&a&l seconds!"
-request.to_target: "&a&lPlayer &6&l<target>&a&l invites you to their location! Expires in &6&l<seconds>&a&l seconds!"
-request.sent_success: "&a&lRequest sent to &6&l<target>&a&l!"
-request.timeout_notice: "&a&lRequest valid for &6&l<seconds>&a&l seconds!"
-request.expired_from: "&c&lRequest from &6&l<target>&c&l has expired!"
-request.expired_to: "&c&lYour request to &6&l<target>&c&l has expired!"
+request.to_here: "&aPlayer &6<target>&a wants to teleport to you! Expires in &6<seconds>&a seconds!"
+request.to_target: "&aPlayer &6<target>&a invites you to their location! Expires in &6<seconds>&a seconds!"
+request.sent_success: "&aRequest sent to &6<target>&a!"
+request.timeout_notice: "&aRequest valid for &6<seconds>&a seconds!"
+request.expired_from: "&cRequest from &6<target>&c has expired!"
+request.expired_to: "&cYour request to &6<target>&c has expired!"
 
 #=======================
 # Homes
 #=======================
-home.list_header: "&a&lAvailable Homes:"
-home.set_success: "&a&lHome &6&l<target>&a&l set"
-home.default_set_success: "&a&lDefault home set to &6&l<target>"
-home.delete_success: "&a&lHome &6&l<target>&a&l deleted"
-home.teleport_success: "&a&lTeleported to home &6&l<target>"
-home.max_limit_error: "&c&lMaximum &6&l<max_home_amount>&c&l homes allowed!"
-error.default_home_already_set: "&6&l<target>&c&l is already default home"
+home.list_header: "&aAvailable Homes:"
+home.set_success: "&aHome &6<target>&a set"
+home.default_set_success: "&aDefault home set to &6<target>"
+home.delete_success: "&aHome &6<target>&a deleted"
+home.teleport_success: "&aTeleported to home &6<target>"
+home.max_limit_error: "&cMaximum &6<max_home_amount>&c homes allowed!"
+error.default_home_already_set: "&6<target>&c is already default home"
 
 #=======================
 # Warps
 #=======================
-warp.list_header: "&a&lAvailable Warps:"
-warp.set_success: "&a&lWarp &6&l<target>&a&l set"
-warp.delete_success: "&a&lWarp &6&l<target>&a&l deleted"
-warp.teleport_success: "&a&lTeleported to warp &6&l<target>"
+warp.list_header: "&aAvailable Warps:"
+warp.set_success: "&aWarp &6<target>&a set"
+warp.delete_success: "&aWarp &6<target>&a deleted"
+warp.teleport_success: "&aTeleported to warp &6<target>"
 
 #=======================
 # Spawn
 #=======================
-spawn.set_success: "&a&lSpawn location set"
-spawn.delete_success: "&a&lSpawn location removed"
-spawn.teleport_success: "&a&lTeleported to spawn!"
+spawn.set_success: "&aSpawn location set"
+spawn.delete_success: "&aSpawn location removed"
+spawn.teleport_success: "&aTeleported to spawn!"
 
 #=======================
 # Last Location
 #=======================
-back.teleport_success: "&a&lTeleported to last location!"
+back.teleport_success: "&aTeleported to last location!"
 
 #=======================
 # Random Teleport
 #=======================
-rtp.generating: "&a&lGenerating random location..."
-rtp.success: "&a&lTeleported to&6&l random location!"
-rtp.failed: "&c&lFailed to generate location!"
+rtp.generating: "&aGenerating random location..."
+rtp.success: "&aTeleported to&6 random location!"
+rtp.failed: "&cFailed to generate location!"
 
 #=======================
 # Blacklist
 #=======================
-blacklist.list_header: "&a&lYour Blacklist:"
-blacklist.add_success: "&a&lAdded &6&l<target>&a&l to blacklist"
-blacklist.remove_success: "&a&lRemoved &6&l<target>&a&l from blacklist"
+blacklist.list_header: "&aYour Blacklist:"
+blacklist.add_success: "&aAdded &6<target>&a to blacklist"
+blacklist.remove_success: "&aRemoved &6<target>&a from blacklist"
 
 #=======================
 # Error Messages
 #=======================
 ## Command Status
-error.command_disabled: "&c&lThis command is disabled!"
-error.world_disabled: "&c&lCommand disabled in this world!"
-error.command_cooldown: "&c&lWait &6&l<seconds>&c&l seconds to use!"
+error.command_disabled: "&cThis command is disabled!"
+error.world_disabled: "&cCommand disabled in this world!"
+error.command_cooldown: "&cWait &6<seconds>&c seconds to use!"
 
 ## Permissions
-error.console_restricted: "&c&lPlayer-only command!"
-error.permission_denied: "&c&lNo permission!"
+error.console_restricted: "&cPlayer-only command!"
+error.permission_denied: "&cNo permission!"
 
 ## Player Status
-error.no_online_players: "&c&lNo online players!"
-error.target_offline: "&c&lPlayer &6&l<target>&c&l is offline!"
-error.self_operation: "&c&lCannot perform on yourself!"
+error.no_online_players: "&cNo online players!"
+error.target_offline: "&cPlayer &6<target>&c is offline!"
+error.self_operation: "&cCannot perform on yourself!"
 
 ## Requests
-error.no_pending_request: "&c&lNo pending requests!"
-error.request_pending: "&c&lPending request exists!"
+error.no_pending_request: "&cNo pending requests!"
+error.request_pending: "&cPending request exists!"
 
 ## Blacklist
-error.already_blacklisted: "&c&lAlready in blacklist!"
-error.blocked_by_target: "&c&lYou're blocked by target!"
-error.blacklist_empty: "&c&lBlacklist is empty!"
-error.not_blacklisted: "&c&lNot in blacklist!"
+error.already_blacklisted: "&cAlready in blacklist!"
+error.blocked_by_target: "&cYou're blocked by target!"
+error.blacklist_empty: "&cBlacklist is empty!"
+error.not_blacklisted: "&cNot in blacklist!"
 
 ## Homes
-error.home_not_found: "&c&lHome &6&l<target>&c&l not found!"
-error.no_homes_set: "&c&lNo homes set!"
-error.no_default_home: "&c&lNo default home!"
+error.home_not_found: "&cHome &6<target>&c not found!"
+error.no_homes_set: "&cNo homes set!"
+error.no_default_home: "&cNo default home!"
 
 ## Warps
-error.warp_not_found: "&c&lWarp &6&l<target>&c&l not found!"
-error.no_warps_set: "&c&lNo warps available!"
+error.warp_not_found: "&cWarp &6<target>&c not found!"
+error.no_warps_set: "&cNo warps available!"
 
 ## Locations
-error.last_location_missing: "&c&lNo last location!"
-error.logout_location_missing: "&c&lNo logout location!"
-error.spawn_not_set: "&c&lSpawn not set!"
+error.last_location_missing: "&cNo last location!"
+error.logout_location_missing: "&cNo logout location!"
+error.spawn_not_set: "&cSpawn not set!"
 
 ## Syntax
-error.syntax_generic: "&c&lSyntax error! Usage: /<command>"
-error.syntax_tpa: "&c&lSyntax error! Usage: /<command> <player>"
-error.syntax_tpall: "&c&lSyntax error! Usage: /<command> [player/warp/spawn] [name]"
-error.syntax_warp: "&c&lSyntax error! Usage: /<command> <warp>"
-error.syntax_home: "&c&lSyntax error! Usage: /<command> <home>"
+error.syntax_generic: "&cSyntax error! Usage: /<command>"
+error.syntax_tpa: "&cSyntax error! Usage: /<command> <player>"
+error.syntax_tpall: "&cSyntax error! Usage: /<command> [player/warp/spawn] [name]"
+error.syntax_warp: "&cSyntax error! Usage: /<command> <warp>"
+error.syntax_home: "&cSyntax error! Usage: /<command> <home>"
 
 ## System
-error.config_not_found: "&c&lConfig regenerated!"
-error.runtime: "&c&lPlugin error: <message>"
-error.forwarded_error: "&c&lError from &6&l<target>:"
+error.config_not_found: "&cConfig regenerated!"
+error.runtime: "&cPlugin error: <message>"
+error.forwarded_error: "&cError from &6<target>:"
 
 #=======================
 # Teleport Process
 #=======================
-teleport.accept.self: "&a&lAccepted request from &6&l<target>!"
-teleport.accept.target: "&a&lPlayer &6&l<target>&a&l accepted your request!"
-teleport.deny.self: "&c&lDenied request from &6&l<target>!"
-teleport.deny.target: "&c&lPlayer &6&l<target>&c&l denied your request!"
-teleport.countdown: "&a&lTeleporting in &6&l<seconds>&a&l seconds to &6&l<target>"
-teleport.cancel_on_move: "&a&lMoving cancels teleport!"
-teleport.canceled.self: "&c&lTeleport canceled!"
-teleport.canceled.target: "&c&lTarget canceled teleport!"
-teleport.generic_success: "&a&lTeleported to &6&l<target>"
-teleport.tpall.to_target: "&a&lAdmin teleported you to &6&l<target>"
-teleport.tpall.to_self: "&a&lAdmin teleported all players to you"
-teleport.tpall.success: "&a&lTeleported all players to &6&l<target>"
-teleport.logout_location: "&a&lTeleported to &6&l<target>'s logout location"
+teleport.accept.self: "&aAccepted request from &6<target>!"
+teleport.accept.target: "&aPlayer &6<target>&a accepted your request!"
+teleport.deny.self: "&cDenied request from &6<target>!"
+teleport.deny.target: "&cPlayer &6<target>&c denied your request!"
+teleport.countdown: "&aTeleporting in &6<seconds>&a seconds to &6<target>"
+teleport.cancel_on_move: "&aMoving cancels teleport!"
+teleport.canceled.self: "&cTeleport canceled!"
+teleport.canceled.target: "&cTarget canceled teleport!"
+teleport.generic_success: "&aTeleported to &6<target>"
+teleport.tpall.to_target: "&aAdmin teleported you to &6<target>"
+teleport.tpall.to_self: "&aAdmin teleported all players to you"
+teleport.tpall.success: "&aTeleported all players to &6<target>"
+teleport.logout_location: "&aTeleported to &6<target>'s logout location"
 
 #=======================
 # System Messages
 #=======================
-system.config_reloaded: "&a&lConfig reloaded!"
-system.plugin_loaded: "&a&lPlugin loaded! Version: &6&l<target>"
-system.plugin_unloaded: "&c&lPlugin unloaded!"
-system.config_migrated_success: "&a&lConfig migration completed!"
-system.config_migrated: "&a&lMigrating old config (backup created)"
-system.debug_warning: "&c&lDebug mode enabled - disable after use!"
+system.config_reloaded: "&aConfig reloaded!"
+system.plugin_loaded: "&aPlugin loaded! Version: &6<target>"
+system.plugin_unloaded: "&cPlugin unloaded!"
+system.config_migrated_success: "&aConfig migration completed!"
+system.config_migrated: "&aMigrating old config (backup created)"
+system.debug_warning: "&cDebug mode enabled - disable after use!"
 
 #=======================
 # Updates
 #=======================
-update.checking: "&a&lChecking updates..."
-update.available: "&a&lNew version: &6&lTPA-v<target>&a&l at&6&l https://modrinth.com/plugin/tpa.66666/versions"
-update.latest: "&a&lAlready latest version"
-update.failed: "&c&lUpdate check failed!"
+update.checking: "&aChecking updates..."
+update.available: "&aNew version: &6TPA-v<target>&a at&6 https://modrinth.com/plugin/tpa.66666/versions"
+update.latest: "&aAlready latest version"
+update.failed: "&cUpdate check failed!"

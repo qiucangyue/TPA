@@ -3,178 +3,178 @@
 #=======================
 # Basisconfiguratie
 #=======================
-prefix: "&a&l> "
-console_prefix: "&7&l[TPA] "
+prefix: "&a> "
+console_prefix: "&7[TPA] "
 not_online_players: "Geen online spelers"
 not_warps: "Geen warps beschikbaar"
 not_homes: "Geen homes beschikbaar"
 spawn_name: "Spawn"
 rtp_name: "Willekeurige teleportatie"
 last_location: "Laatste locatie"
-lang.set_success: "&a&lTaal ingesteld op &6&l<target>"
+lang.set_success: "&aTaal ingesteld op &6<target>"
 
 #=======================
 # Knoppeninteractie
 #=======================
 ## Knopteksten
-accept_button: "&a&l[Accepteren]"
-deny_button: "&c&l[Weigeren]"
-blacklist.add_button: "&c&l[Weiger en blokkeer]"
-blacklist.remove_button: "&a&l[Deblokkeer]"
-teleport_button: "&a&l[Teleporteren]"
-location_set_button: "&6&l[Locatie instellen]"
-default_home_set_button: "&e&l[Standaard home]"
-delete_button: "&c&l[Verwijderen]"
+accept_button: "&a[Accepteren]"
+deny_button: "&c[Weigeren]"
+blacklist.add_button: "&c[Weiger en blokkeer]"
+blacklist.remove_button: "&a[Deblokkeer]"
+teleport_button: "&a[Teleporteren]"
+location_set_button: "&6[Locatie instellen]"
+default_home_set_button: "&e[Standaard home]"
+delete_button: "&c[Verwijderen]"
 
 ## Klikhints
-accept_click_hint: "&a&lKlik om teleportatie te accepteren"
-deny_click_hint: "&c&lKlik om teleportatie te weigeren"
-blacklist.add_hint: "&c&lKlik om te weigeren en te blokkeren"
-blacklist.remove_hint: "&a&lKlik om deblokkeren"
-teleport_click_hint: "&a&lKlik om te teleporteren"
-set_location_hint: "&6&lKlik om huidige locatie in te stellen"
-set_default_home_hint: "&e&lKlik als standaard home"
-delete_click_hint: "&c&lKlik om te verwijderen"
+accept_click_hint: "&aKlik om teleportatie te accepteren"
+deny_click_hint: "&cKlik om teleportatie te weigeren"
+blacklist.add_hint: "&cKlik om te weigeren en te blokkeren"
+blacklist.remove_hint: "&aKlik om deblokkeren"
+teleport_click_hint: "&aKlik om te teleporteren"
+set_location_hint: "&6Klik om huidige locatie in te stellen"
+set_default_home_hint: "&eKlik als standaard home"
+delete_click_hint: "&cKlik om te verwijderen"
 
 #=======================
 # Teleportatieverzoeken
 #=======================
-request.to_here: "&a&lSpeler &6&l<target> &a&lwil naar je teleporteren! Verloopt over &6&l<seconds> &a&lseconden!"
-request.to_target: "&a&lSpeler &6&l<target> &a&lnodigt je uit! Verloopt over &6&l<seconds> &a&lseconden!"
-request.sent_success: "&a&lVerzoek verzonden naar &6&l<target>!"
-request.timeout_notice: "&a&lVerzoek geldig voor &6&l<seconds> &a&lseconden!"
-request.expired_from: "&c&lVerzoek van &6&l<target> &c&lis verlopen!"
-request.expired_to: "&c&lVerzoek aan &6&l<target> &c&lis verlopen!"
+request.to_here: "&aSpeler &6<target> &awil naar je teleporteren! Verloopt over &6<seconds> &aseconden!"
+request.to_target: "&aSpeler &6<target> &anodigt je uit! Verloopt over &6<seconds> &aseconden!"
+request.sent_success: "&aVerzoek verzonden naar &6<target>!"
+request.timeout_notice: "&aVerzoek geldig voor &6<seconds> &aseconden!"
+request.expired_from: "&cVerzoek van &6<target> &cis verlopen!"
+request.expired_to: "&cVerzoek aan &6<target> &cis verlopen!"
 
 #=======================
 # Homes
 #=======================
-home.list_header: "&a&lBeschikbare homes:"
-home.set_success: "&a&lHome &6&l<target> &a&lingesteld"
-home.default_set_success: "&a&lStandaard home ingesteld op &6&l<target>"
-home.delete_success: "&a&lHome &6&l<target> &a&lverwijderd"
-home.teleport_success: "&a&lGeteleporteerd naar home &6&l<target>"
-home.max_limit_error: "&c&lMaximaal <max_home_amount> homes!"
-error.default_home_already_set: "&6&l<target> &c&lis al standaard home"
+home.list_header: "&aBeschikbare homes:"
+home.set_success: "&aHome &6<target> &aingesteld"
+home.default_set_success: "&aStandaard home ingesteld op &6<target>"
+home.delete_success: "&aHome &6<target> &averwijderd"
+home.teleport_success: "&aGeteleporteerd naar home &6<target>"
+home.max_limit_error: "&cMaximaal <max_home_amount> homes!"
+error.default_home_already_set: "&6<target> &cis al standaard home"
 
 #=======================
 # Warps
 #=======================
-warp.list_header: "&a&lBeschikbare warps:"
-warp.set_success: "&a&lWarp &6&l<target> &a&lingesteld"
-warp.delete_success: "&a&lWarp &6&l<target> &a&lverwijderd"
-warp.teleport_success: "&a&lGeteleporteerd naar warp &6&l<target>"
+warp.list_header: "&aBeschikbare warps:"
+warp.set_success: "&aWarp &6<target> &aingesteld"
+warp.delete_success: "&aWarp &6<target> &averwijderd"
+warp.teleport_success: "&aGeteleporteerd naar warp &6<target>"
 
 #=======================
 # Spawn
 #=======================
-spawn.set_success: "&a&lSpawn ingesteld"
-spawn.delete_success: "&a&lSpawn verwijderd"
-spawn.teleport_success: "&a&lGeteleporteerd naar spawn!"
+spawn.set_success: "&aSpawn ingesteld"
+spawn.delete_success: "&aSpawn verwijderd"
+spawn.teleport_success: "&aGeteleporteerd naar spawn!"
 
 #=======================
 # Laatste locatie
 #=======================
-back.teleport_success: "&a&lGeteleporteerd naar laatste locatie!"
+back.teleport_success: "&aGeteleporteerd naar laatste locatie!"
 
 #=======================
 # Willekeurige teleportatie
 #=======================
-rtp.generating: "&a&lBezig met genereren..."
-rtp.success: "&a&lWillekeurig geteleporteerd!"
-rtp.failed: "&c&lGenereren mislukt!"
+rtp.generating: "&aBezig met genereren..."
+rtp.success: "&aWillekeurig geteleporteerd!"
+rtp.failed: "&cGenereren mislukt!"
 
 #=======================
 # Zwarte lijst
 #=======================
-blacklist.list_header: "&a&lZwarte lijst:"
-blacklist.add_success: "&a&l&6&l<target> &a&lgeblokkeerd"
-blacklist.remove_success: "&a&l&6&l<target> &a&lgedeblokkeerd"
+blacklist.list_header: "&aZwarte lijst:"
+blacklist.add_success: "&a&6<target> &ageblokkeerd"
+blacklist.remove_success: "&a&6<target> &agedeblokkeerd"
 
 #=======================
 # Foutmeldingen
 #=======================
 ## Commando status
-error.command_disabled: "&c&lCommando uitgeschakeld!"
-error.world_disabled: "&c&lNiet beschikbaar in deze wereld!"
-error.command_cooldown: "&c&lWacht &6&l<seconds> &c&lseconden!"
+error.command_disabled: "&cCommando uitgeschakeld!"
+error.world_disabled: "&cNiet beschikbaar in deze wereld!"
+error.command_cooldown: "&cWacht &6<seconds> &cseconden!"
 
 ## Permissies
-error.console_restricted: "&c&lAlleen voor spelers!"
-error.permission_denied: "&c&lGeen toestemming!"
+error.console_restricted: "&cAlleen voor spelers!"
+error.permission_denied: "&cGeen toestemming!"
 
 ## Spelerstatus
-error.no_online_players: "&c&lGeen online spelers!"
-error.target_offline: "&c&lSpeler &6&l<target> &c&lis offline!"
-error.self_operation: "&c&lNiet op jezelf gebruiken!"
+error.no_online_players: "&cGeen online spelers!"
+error.target_offline: "&cSpeler &6<target> &cis offline!"
+error.self_operation: "&cNiet op jezelf gebruiken!"
 
 ## Verzoekstatus
-error.no_pending_request: "&c&lGeen openstaande verzoeken!"
-error.request_pending: "&c&lEr loopt al een verzoek"
+error.no_pending_request: "&cGeen openstaande verzoeken!"
+error.request_pending: "&cEr loopt al een verzoek"
 
 ## Zwarte lijst
-error.already_blacklisted: "&c&lAl geblokkeerd!"
-error.blocked_by_target: "&c&lJe bent geblokkeerd!"
-error.blacklist_empty: "&c&lZwarte lijst is leeg!"
-error.not_blacklisted: "&c&lNiet geblokkeerd!"
+error.already_blacklisted: "&cAl geblokkeerd!"
+error.blocked_by_target: "&cJe bent geblokkeerd!"
+error.blacklist_empty: "&cZwarte lijst is leeg!"
+error.not_blacklisted: "&cNiet geblokkeerd!"
 
 ## Homes
-error.home_not_found: "&c&lHome &6&l<target> &c&lniet gevonden!"
-error.no_homes_set: "&c&lGeen homes ingesteld!"
-error.no_default_home: "&c&lGeen standaard home!"
+error.home_not_found: "&cHome &6<target> &cniet gevonden!"
+error.no_homes_set: "&cGeen homes ingesteld!"
+error.no_default_home: "&cGeen standaard home!"
 
 ## Warps
-error.warp_not_found: "&c&lWarp &6&l<target> &c&lniet gevonden!"
-error.no_warps_set: "&c&lGeen warps beschikbaar!"
+error.warp_not_found: "&cWarp &6<target> &cniet gevonden!"
+error.no_warps_set: "&cGeen warps beschikbaar!"
 
 ## Locaties
-error.last_location_missing: "&c&lGeen laatste locatie!"
-error.logout_location_missing: "&c&lGeen uitloglocatie!"
-error.spawn_not_set: "&c&lGeen spawn ingesteld!"
+error.last_location_missing: "&cGeen laatste locatie!"
+error.logout_location_missing: "&cGeen uitloglocatie!"
+error.spawn_not_set: "&cGeen spawn ingesteld!"
 
 ## Commando syntax
-error.syntax_generic: "&c&lSyntaxisfout! Gebruik: /<command>"
-error.syntax_tpa: "&c&lSyntaxisfout! Gebruik: /<command> <speler>"
-error.syntax_tpall: "&c&lSyntaxisfout! Gebruik: /<command> [speler/warp/spawn] [naam]"
-error.syntax_warp: "&c&lSyntaxisfout! Gebruik: /<command> <warp>"
-error.syntax_home: "&c&lSyntaxisfout! Gebruik: /<command> <home>"
+error.syntax_generic: "&cSyntaxisfout! Gebruik: /<command>"
+error.syntax_tpa: "&cSyntaxisfout! Gebruik: /<command> <speler>"
+error.syntax_tpall: "&cSyntaxisfout! Gebruik: /<command> [speler/warp/spawn] [naam]"
+error.syntax_warp: "&cSyntaxisfout! Gebruik: /<command> <warp>"
+error.syntax_home: "&cSyntaxisfout! Gebruik: /<command> <home>"
 
 ## Systeemfouten
-error.config_not_found: "&c&lConfig hersteld!"
-error.runtime: "&c&lPluginfout: <message>"
-error.forwarded_error: "&c&lFout van &6&l<target>:"
+error.config_not_found: "&cConfig hersteld!"
+error.runtime: "&cPluginfout: <message>"
+error.forwarded_error: "&cFout van &6<target>:"
 
 #=======================
 # Teleportatieproces
 #=======================
-teleport.accept.self: "&a&lVerzoek van &6&l<target> &a&lgeaccepteerd!"
-teleport.accept.target: "&a&l&6&l<target> &a&lheeft geaccepteerd!"
-teleport.deny.self: "&c&lVerzoek van &6&l<target> &c&lgeweigerd!"
-teleport.deny.target: "&c&l&6&l<target> &c&lheeft geweigerd!"
-teleport.countdown: "&a&lTeleportatie over &6&l<seconds> &a&lseconden naar &6&l<target>"
-teleport.cancel_on_move: "&a&lBewegen annuleert teleportatie!"
-teleport.canceled.self: "&c&lTeleportatie geannuleerd!"
-teleport.canceled.target: "&c&lAndere partij annuleerde!"
-teleport.generic_success: "&a&lGeteleporteerd naar &6&l<target>"
-teleport.tpall.to_target: "&a&lAdmin teleporteerde je naar &6&l<target>"
-teleport.tpall.to_self: "&a&lAdmin teleporteerde iedereen naar jou"
-teleport.tpall.success: "&a&lIedereen geteleporteerd naar &6&l<target>"
-teleport.logout_location: "&a&lGeteleporteerd naar uitloglocatie van &6&l<target>"
+teleport.accept.self: "&aVerzoek van &6<target> &ageaccepteerd!"
+teleport.accept.target: "&a&6<target> &aheeft geaccepteerd!"
+teleport.deny.self: "&cVerzoek van &6<target> &cgeweigerd!"
+teleport.deny.target: "&c&6<target> &cheeft geweigerd!"
+teleport.countdown: "&aTeleportatie over &6<seconds> &aseconden naar &6<target>"
+teleport.cancel_on_move: "&aBewegen annuleert teleportatie!"
+teleport.canceled.self: "&cTeleportatie geannuleerd!"
+teleport.canceled.target: "&cAndere partij annuleerde!"
+teleport.generic_success: "&aGeteleporteerd naar &6<target>"
+teleport.tpall.to_target: "&aAdmin teleporteerde je naar &6<target>"
+teleport.tpall.to_self: "&aAdmin teleporteerde iedereen naar jou"
+teleport.tpall.success: "&aIedereen geteleporteerd naar &6<target>"
+teleport.logout_location: "&aGeteleporteerd naar uitloglocatie van &6<target>"
 
 #=======================
 # Systeemberichten
 #=======================
-system.config_reloaded: "&a&lConfig herladen!"
-system.plugin_loaded: "&a&lPlugin geladen! Versie: &6&l<target>"
-system.plugin_unloaded: "&c&lPlugin uitgeschakeld!"
-system.config_migrated_success: "&a&lConfig gemigreerd!"
-system.config_migrated: "&a&lOude config gedetecteerd (backup in backup-map)"
+system.config_reloaded: "&aConfig herladen!"
+system.plugin_loaded: "&aPlugin geladen! Versie: &6<target>"
+system.plugin_unloaded: "&cPlugin uitgeschakeld!"
+system.config_migrated_success: "&aConfig gemigreerd!"
+system.config_migrated: "&aOude config gedetecteerd (backup in backup-map)"
 system.debug_warning: "Waarschuwing: Debug-modus actief!"
 
 #=======================
 # Updates
 #=======================
-update.checking: "&a&lZoeken naar updates..."
-update.available: "&a&lNieuwe versie &6&lTPA-v<target> &a&lbeschikbaar: https://modrinth.com/plugin/tpa.66666/versions"
-update.latest: "&a&lJe gebruikt de nieuwste versie"
-update.failed: "&c&lUpdatecontrole mislukt!"
+update.checking: "&aZoeken naar updates..."
+update.available: "&aNieuwe versie &6TPA-v<target> &abeschikbaar: https://modrinth.com/plugin/tpa.66666/versions"
+update.latest: "&aJe gebruikt de nieuwste versie"
+update.failed: "&cUpdatecontrole mislukt!"

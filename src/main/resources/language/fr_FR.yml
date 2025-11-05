@@ -3,178 +3,178 @@
 #=======================
 # Configuration de base
 #=======================
-prefix: "&a&l> "
-console_prefix: "&7&l[TPA] "
+prefix: "&a> "
+console_prefix: "&7[TPA] "
 not_online_players: "Aucun joueur en ligne"
 not_warps: "Aucun point de téléportation disponible"
 not_homes: "Aucune maison disponible"
 spawn_name: "Spawn principal"
 rtp_name: "Téléportation aléatoire"
 last_location: "Position précédente"
-lang.set_success: "&a&lLangue du client définie sur &6&l<target>"
+lang.set_success: "&aLangue du client définie sur &6<target>"
 
 #=======================
 # Interactions des boutons
 #=======================
 ## Texte des boutons
-accept_button: "&a&l[Accepter]"
-deny_button: "&c&l[Refuser]"
-blacklist.add_button: "&c&l[Bloquer]"
-blacklist.remove_button: "&a&l[Débloquer]"
-teleport_button: "&a&l[Téléportation]"
-location_set_button: "&6&l[Définir position]"
-default_home_set_button: "&e&l[Définir maison]"
-delete_button: "&c&l[Supprimer]"
+accept_button: "&a[Accepter]"
+deny_button: "&c[Refuser]"
+blacklist.add_button: "&c[Bloquer]"
+blacklist.remove_button: "&a[Débloquer]"
+teleport_button: "&a[Téléportation]"
+location_set_button: "&6[Définir position]"
+default_home_set_button: "&e[Définir maison]"
+delete_button: "&c[Supprimer]"
 
 ## Infobulles
-accept_click_hint: "&a&lCliquez pour accepter"
-deny_click_hint: "&c&lCliquez pour refuser"
-blacklist.add_hint: "&c&lCliquez pour bloquer"
-blacklist.remove_hint: "&a&lCliquez pour débloquer"
-teleport_click_hint: "&a&lCliquez pour téléporter"
-set_location_hint: "&6&lDéfinir position actuelle"
-set_default_home_hint: "&e&lDéfinir comme maison"
-delete_click_hint: "&c&lCliquez pour supprimer"
+accept_click_hint: "&aCliquez pour accepter"
+deny_click_hint: "&cCliquez pour refuser"
+blacklist.add_hint: "&cCliquez pour bloquer"
+blacklist.remove_hint: "&aCliquez pour débloquer"
+teleport_click_hint: "&aCliquez pour téléporter"
+set_location_hint: "&6Définir position actuelle"
+set_default_home_hint: "&eDéfinir comme maison"
+delete_click_hint: "&cCliquez pour supprimer"
 
 #=======================
 # Demandes de téléportation
 #=======================
-request.to_here: "&a&lLe joueur &6&l<target> &a&lsouhaite vous rejoindre! Expire dans &6&l<seconds>&a&l secondes!"
-request.to_target: "&a&lLe joueur &6&l<target> &a&lvous invite! Expire dans &6&l<seconds>&a&l secondes!"
-request.sent_success: "&a&lDemande envoyée à &6&l<target>&a&l!"
-request.timeout_notice: "&a&lValable pendant &6&l<seconds>&a&l secondes!"
-request.expired_from: "&c&lDemande de &6&l<target>&c&l expirée!"
-request.expired_to: "&c&lVotre demande à &6&l<target>&c&l a expiré!"
+request.to_here: "&aLe joueur &6<target> &asouhaite vous rejoindre! Expire dans &6<seconds>&a secondes!"
+request.to_target: "&aLe joueur &6<target> &avous invite! Expire dans &6<seconds>&a secondes!"
+request.sent_success: "&aDemande envoyée à &6<target>&a!"
+request.timeout_notice: "&aValable pendant &6<seconds>&a secondes!"
+request.expired_from: "&cDemande de &6<target>&c expirée!"
+request.expired_to: "&cVotre demande à &6<target>&c a expiré!"
 
 #=======================
 # Système de maisons
 #=======================
-home.list_header: "&a&lMaisons disponibles:"
-home.set_success: "&a&lMaison &6&l<target>&a&l définie"
-home.default_set_success: "&a&lMaison principale définie: &6&l<target>"
-home.delete_success: "&a&lMaison &6&l<target>&a&l supprimée"
-home.teleport_success: "&a&lTéléporté à la maison &6&l<target>"
-home.max_limit_error: "&c&lLimite de &6&l<max_home_amount>&c&l maisons!"
-error.default_home_already_set: "&6&l<target>&c&l est déjà la maison principale"
+home.list_header: "&aMaisons disponibles:"
+home.set_success: "&aMaison &6<target>&a définie"
+home.default_set_success: "&aMaison principale définie: &6<target>"
+home.delete_success: "&aMaison &6<target>&a supprimée"
+home.teleport_success: "&aTéléporté à la maison &6<target>"
+home.max_limit_error: "&cLimite de &6<max_home_amount>&c maisons!"
+error.default_home_already_set: "&6<target>&c est déjà la maison principale"
 
 #=======================
 # Points de téléportation
 #=======================
-warp.list_header: "&a&lPoints disponibles:"
-warp.set_success: "&a&lPoint &6&l<target>&a&l créé"
-warp.delete_success: "&a&lPoint &6&l<target>&a&l supprimé"
-warp.teleport_success: "&a&lTéléporté au point &6&l<target>"
+warp.list_header: "&aPoints disponibles:"
+warp.set_success: "&aPoint &6<target>&a créé"
+warp.delete_success: "&aPoint &6<target>&a supprimé"
+warp.teleport_success: "&aTéléporté au point &6<target>"
 
 #=======================
 # Spawn principal
 #=======================
-spawn.set_success: "&a&lSpawn principal défini"
-spawn.delete_success: "&a&lSpawn principal supprimé"
-spawn.teleport_success: "&a&lTéléporté au spawn principal!"
+spawn.set_success: "&aSpawn principal défini"
+spawn.delete_success: "&aSpawn principal supprimé"
+spawn.teleport_success: "&aTéléporté au spawn principal!"
 
 #=======================
 # Position précédente
 #=======================
-back.teleport_success: "&a&lRetour à la position précédente!"
+back.teleport_success: "&aRetour à la position précédente!"
 
 #=======================
 # Téléportation aléatoire
 #=======================
-rtp.generating: "&a&lGénération de position..."
-rtp.success: "&a&lTéléportation aléatoire réussie!"
-rtp.failed: "&c&lÉchec de génération!"
+rtp.generating: "&aGénération de position..."
+rtp.success: "&aTéléportation aléatoire réussie!"
+rtp.failed: "&cÉchec de génération!"
 
 #=======================
 # Liste noire
 #=======================
-blacklist.list_header: "&a&lListe noire:"
-blacklist.add_success: "&a&lJoueur &6&l<target>&a&l bloqué"
-blacklist.remove_success: "&a&lJoueur &6&l<target>&a&l débloqué"
+blacklist.list_header: "&aListe noire:"
+blacklist.add_success: "&aJoueur &6<target>&a bloqué"
+blacklist.remove_success: "&aJoueur &6<target>&a débloqué"
 
 #=======================
 # Erreurs
 #=======================
 ## État des commandes
-error.command_disabled: "&c&lCommande désactivée!"
-error.world_disabled: "&c&lIndisponible dans ce monde!"
-error.command_cooldown: "&c&lAttendez &6&l<seconds>&c&l secondes!"
+error.command_disabled: "&cCommande désactivée!"
+error.world_disabled: "&cIndisponible dans ce monde!"
+error.command_cooldown: "&cAttendez &6<seconds>&c secondes!"
 
 ## Permissions
-error.console_restricted: "&c&lRéservé aux joueurs!"
-error.permission_denied: "&c&lPermission refusée!"
+error.console_restricted: "&cRéservé aux joueurs!"
+error.permission_denied: "&cPermission refusée!"
 
 ## État des joueurs
-error.no_online_players: "&c&lAucun joueur en ligne!"
-error.target_offline: "&c&lJoueur &6&l<target>&c&l hors ligne!"
-error.self_operation: "&c&lImpossible sur soi-même!"
+error.no_online_players: "&cAucun joueur en ligne!"
+error.target_offline: "&cJoueur &6<target>&c hors ligne!"
+error.self_operation: "&cImpossible sur soi-même!"
 
 ## Demandes
-error.no_pending_request: "&c&lAucune demande en attente!"
-error.request_pending: "&c&lDemande déjà en cours!"
+error.no_pending_request: "&cAucune demande en attente!"
+error.request_pending: "&cDemande déjà en cours!"
 
 ## Liste noire
-error.already_blacklisted: "&c&lDéjà dans la liste noire!"
-error.blocked_by_target: "&c&lVous êtes bloqué!"
-error.blacklist_empty: "&c&lListe noire vide!"
-error.not_blacklisted: "&c&lPas dans la liste noire!"
+error.already_blacklisted: "&cDéjà dans la liste noire!"
+error.blocked_by_target: "&cVous êtes bloqué!"
+error.blacklist_empty: "&cListe noire vide!"
+error.not_blacklisted: "&cPas dans la liste noire!"
 
 ## Maisons
-error.home_not_found: "&c&lMaison &6&l<target>&c&l introuvable!"
-error.no_homes_set: "&c&lAucune maison définie!"
-error.no_default_home: "&c&lMaison principale non définie!"
+error.home_not_found: "&cMaison &6<target>&c introuvable!"
+error.no_homes_set: "&cAucune maison définie!"
+error.no_default_home: "&cMaison principale non définie!"
 
 ## Points de téléportation
-error.warp_not_found: "&c&lPoint &6&l<target>&c&l introuvable!"
-error.no_warps_set: "&c&lAucun point disponible!"
+error.warp_not_found: "&cPoint &6<target>&c introuvable!"
+error.no_warps_set: "&cAucun point disponible!"
 
 ## Positions
-error.last_location_missing: "&c&lAucune position enregistrée!"
-error.logout_location_missing: "&c&lPosition de déconnexion inconnue!"
-error.spawn_not_set: "&c&lSpawn non défini!"
+error.last_location_missing: "&cAucune position enregistrée!"
+error.logout_location_missing: "&cPosition de déconnexion inconnue!"
+error.spawn_not_set: "&cSpawn non défini!"
 
 ## Syntaxe
-error.syntax_generic: "&c&lErreur de syntaxe: /<command>"
-error.syntax_tpa: "&c&lErreur de syntaxe: /<command> <joueur>"
-error.syntax_tpall: "&c&lErreur de syntaxe: /<command> [player/warp/spawn] [nom]"
-error.syntax_warp: "&c&lErreur de syntaxe: /<command> <point>"
-error.syntax_home: "&c&lErreur de syntaxe: /<command> <maison>"
+error.syntax_generic: "&cErreur de syntaxe: /<command>"
+error.syntax_tpa: "&cErreur de syntaxe: /<command> <joueur>"
+error.syntax_tpall: "&cErreur de syntaxe: /<command> [player/warp/spawn] [nom]"
+error.syntax_warp: "&cErreur de syntaxe: /<command> <point>"
+error.syntax_home: "&cErreur de syntaxe: /<command> <maison>"
 
 ## Système
-error.config_not_found: "&c&lConfig recréée!"
-error.runtime: "&c&lErreur du plugin: <message>"
-error.forwarded_error: "&c&lErreur de &6&l<target>:"
+error.config_not_found: "&cConfig recréée!"
+error.runtime: "&cErreur du plugin: <message>"
+error.forwarded_error: "&cErreur de &6<target>:"
 
 #=======================
 # Processus de téléportation
 #=======================
-teleport.accept.self: "&a&lDemande de &6&l<target>&a&l acceptée!"
-teleport.accept.target: "&a&lLe joueur &6&l<target>&a&l a accepté!"
-teleport.deny.self: "&c&lDemande de &6&l<target>&c&l refusée!"
-teleport.deny.target: "&c&lLe joueur &6&l<target>&c&l a refusé!"
-teleport.countdown: "&a&lTéléportation dans &6&l<seconds>&a&l secondes vers &6&l<target>"
-teleport.cancel_on_move: "&a&lDéplacement annule la téléportation!"
-teleport.canceled.self: "&c&lTéléportation annulée!"
-teleport.canceled.target: "&c&lTéléportation annulée!"
-teleport.generic_success: "&a&lTéléporté vers &6&l<target>"
-teleport.tpall.to_target: "&a&lTéléporté par admin vers &6&l<target>"
-teleport.tpall.to_self: "&a&lTous les joueurs téléportés à vous"
-teleport.tpall.success: "&a&lTous téléportés vers &6&l<target>"
-teleport.logout_location: "&a&lTéléporté à la dernière position de &6&l<target>"
+teleport.accept.self: "&aDemande de &6<target>&a acceptée!"
+teleport.accept.target: "&aLe joueur &6<target>&a a accepté!"
+teleport.deny.self: "&cDemande de &6<target>&c refusée!"
+teleport.deny.target: "&cLe joueur &6<target>&c a refusé!"
+teleport.countdown: "&aTéléportation dans &6<seconds>&a secondes vers &6<target>"
+teleport.cancel_on_move: "&aDéplacement annule la téléportation!"
+teleport.canceled.self: "&cTéléportation annulée!"
+teleport.canceled.target: "&cTéléportation annulée!"
+teleport.generic_success: "&aTéléporté vers &6<target>"
+teleport.tpall.to_target: "&aTéléporté par admin vers &6<target>"
+teleport.tpall.to_self: "&aTous les joueurs téléportés à vous"
+teleport.tpall.success: "&aTous téléportés vers &6<target>"
+teleport.logout_location: "&aTéléporté à la dernière position de &6<target>"
 
 #=======================
 # Messages système
 #=======================
-system.config_reloaded: "&a&lConfig rechargée!"
-system.plugin_loaded: "&a&lPlugin chargé! Version: &6&l<target>"
-system.plugin_unloaded: "&c&lPlugin déchargé!"
-system.config_migrated_success: "&a&lMigration réussie!"
-system.config_migrated: "&a&lAncienne config détectée (sauvegardée)"
-system.debug_warning: "&c&lMode debug activé!"
+system.config_reloaded: "&aConfig rechargée!"
+system.plugin_loaded: "&aPlugin chargé! Version: &6<target>"
+system.plugin_unloaded: "&cPlugin déchargé!"
+system.config_migrated_success: "&aMigration réussie!"
+system.config_migrated: "&aAncienne config détectée (sauvegardée)"
+system.debug_warning: "&cMode debug activé!"
 
 #=======================
 # Mises à jour
 #=======================
-update.checking: "&a&lRecherche de mises à jour..."
-update.available: "&a&lNouvelle version disponible: &6&lTPA-v<target> &a&l- &6&lhttps://modrinth.com/plugin/tpa.66666/versions"
-update.latest: "&a&lVersion à jour"
-update.failed: "&c&lÉchec de vérification!"
+update.checking: "&aRecherche de mises à jour..."
+update.available: "&aNouvelle version disponible: &6TPA-v<target> &a- &6https://modrinth.com/plugin/tpa.66666/versions"
+update.latest: "&aVersion à jour"
+update.failed: "&cÉchec de vérification!"

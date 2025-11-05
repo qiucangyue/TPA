@@ -3,178 +3,178 @@
 #=======================
 # הגדרות בסיסיות
 #=======================
-prefix: "&a&l> "
-console_prefix: "&7&l[TPA] "
+prefix: "&a> "
+console_prefix: "&7[TPA] "
 not_online_players: "אין שחקנים מחוברים"
 not_warps: "אין נקודות טלפורט זמינות"
 not_homes: "אין בתים זמינים"
 spawn_name: "ספawn"
 rtp_name: "טלפורט אקראי"
 last_location: "מיקום אחרון"
-lang.set_success: "&a&lשפת הלקוח הוגדרה ל&6&l<target>"
+lang.set_success: "&aשפת הלקוח הוגדרה ל&6<target>"
 
 #=======================
 # אינטראקציות עם כפתורים
 #=======================
 ## טקסט כפתורים
-accept_button: "&a&l[קבל]"
-deny_button: "&c&l[דחה]"
-blacklist.add_button: "&c&l[דחה והוסף לרשימה שחורה]"
-blacklist.remove_button: "&a&l[הסר מרשימה שחורה]"
-teleport_button: "&a&l[טלפורט]"
-location_set_button: "&6&l[הגדר מיקום]"
-default_home_set_button: "&e&l[הגדר כבית ברירת מחדל]"
-delete_button: "&c&l[מחק]"
+accept_button: "&a[קבל]"
+deny_button: "&c[דחה]"
+blacklist.add_button: "&c[דחה והוסף לרשימה שחורה]"
+blacklist.remove_button: "&a[הסר מרשימה שחורה]"
+teleport_button: "&a[טלפורט]"
+location_set_button: "&6[הגדר מיקום]"
+default_home_set_button: "&e[הגדר כבית ברירת מחדל]"
+delete_button: "&c[מחק]"
 
 ## הודעות קליק
-accept_click_hint: "&a&lלחץ כדי לקבל טלפורט"
-deny_click_hint: "&c&lלחץ כדי לדחות טלפורט"
-blacklist.add_hint: "&c&lלחץ לדחייה והוספה לרשימה שחורה"
-blacklist.remove_hint: "&a&lלחץ להסרת שחקן מרשימה שחורה"
-teleport_click_hint: "&a&lלחץ כדי להתטלפן"
-set_location_hint: "&6&lלחץ להגדרת המיקום הנוכחי"
-set_default_home_hint: "&e&lלחץ להגדרת בית ברירת מחדל"
-delete_click_hint: "&c&lלחץ למחיקה"
+accept_click_hint: "&aלחץ כדי לקבל טלפורט"
+deny_click_hint: "&cלחץ כדי לדחות טלפורט"
+blacklist.add_hint: "&cלחץ לדחייה והוספה לרשימה שחורה"
+blacklist.remove_hint: "&aלחץ להסרת שחקן מרשימה שחורה"
+teleport_click_hint: "&aלחץ כדי להתטלפן"
+set_location_hint: "&6לחץ להגדרת המיקום הנוכחי"
+set_default_home_hint: "&eלחץ להגדרת בית ברירת מחדל"
+delete_click_hint: "&cלחץ למחיקה"
 
 #=======================
 # בקשת טלפורט
 #=======================
-request.to_here: "&a&lשחקן &6&l<target> &a&lרוצה להתטלפן אליך! הבקשה תפוג בעוד &6&l<seconds> &a&lשניות!"
-request.to_target: "&a&lשחקן &6&l<target> &a&lמזמין אותך למיקומו! הבקשה תפוג בעוד &6&l<seconds> &a&lשניות!"
-request.sent_success: "&a&lנשלחה בקשת טלפורט ל&6&l<target>!"
-request.timeout_notice: "&a&lהבקשה תקפה ל&6&l<seconds> &a&lשניות!"
-request.expired_from: "&c&lבקשת טלפורט מ&6&l<target> &c&lפגה!"
-request.expired_to: "&c&lבקשתך ל&6&l<target> &c&lפגה!"
+request.to_here: "&aשחקן &6<target> &aרוצה להתטלפן אליך! הבקשה תפוג בעוד &6<seconds> &aשניות!"
+request.to_target: "&aשחקן &6<target> &aמזמין אותך למיקומו! הבקשה תפוג בעוד &6<seconds> &aשניות!"
+request.sent_success: "&aנשלחה בקשת טלפורט ל&6<target>!"
+request.timeout_notice: "&aהבקשה תקפה ל&6<seconds> &aשניות!"
+request.expired_from: "&cבקשת טלפורט מ&6<target> &cפגה!"
+request.expired_to: "&cבקשתך ל&6<target> &cפגה!"
 
 #=======================
 # בתים
 #=======================
-home.list_header: "&a&lבזמינים:"
-home.set_success: "&a&lבית חדש נקבע: &6&l<target>"
-home.default_set_success: "&a&lבית ברירת המחדל נקבע ל&6&l<target>"
-home.delete_success: "&a&lבית נמחק: &6&l<target>"
-home.teleport_success: "&a&lהתטלפת לבית &6&l<target>"
-home.max_limit_error: "&c&lמגבלת בתים: <max_home_amount>!"
-error.default_home_already_set: "&6&l<target> &c&lכבר מוגדר כבית ברירת מחדל"
+home.list_header: "&aבזמינים:"
+home.set_success: "&aבית חדש נקבע: &6<target>"
+home.default_set_success: "&aבית ברירת המחדל נקבע ל&6<target>"
+home.delete_success: "&aבית נמחק: &6<target>"
+home.teleport_success: "&aהתטלפת לבית &6<target>"
+home.max_limit_error: "&cמגבלת בתים: <max_home_amount>!"
+error.default_home_already_set: "&6<target> &cכבר מוגדר כבית ברירת מחדל"
 
 #=======================
 # נקודות טלפורט
 #=======================
-warp.list_header: "&a&lנקודות טלפורט זמינות:"
-warp.set_success: "&a&lנקודת טלפורט נקבעה: &6&l<target>"
-warp.delete_success: "&a&lנקודת טלפורט נמחקה: &6&l<target>"
-warp.teleport_success: "&a&lהתטלפת ל&6&l<target>"
+warp.list_header: "&aנקודות טלפורט זמינות:"
+warp.set_success: "&aנקודת טלפורט נקבעה: &6<target>"
+warp.delete_success: "&aנקודת טלפורט נמחקה: &6<target>"
+warp.teleport_success: "&aהתטלפת ל&6<target>"
 
 #=======================
 # ספawn
 #=======================
-spawn.set_success: "&a&lנקודת הספawn נקבעה"
-spawn.delete_success: "&a&lנקודת הספawn נמחקה"
-spawn.teleport_success: "&a&lהתטלפת לספawn!"
+spawn.set_success: "&aנקודת הספawn נקבעה"
+spawn.delete_success: "&aנקודת הספawn נמחקה"
+spawn.teleport_success: "&aהתטלפת לספawn!"
 
 #=======================
 # מיקום אחרון
 #=======================
-back.teleport_success: "&a&lהתטלפת למיקומך האחרון!"
+back.teleport_success: "&aהתטלפת למיקומך האחרון!"
 
 #=======================
 # טלפורט אקראי
 #=======================
-rtp.generating: "&a&lמייצר נקודת טלפורט אקראית..."
-rtp.success: "&a&lהתטלפת למיקום אקראי!"
-rtp.failed: "&c&lיצירת נקודת טלפורט נכשלה!"
+rtp.generating: "&aמייצר נקודת טלפורט אקראית..."
+rtp.success: "&aהתטלפת למיקום אקראי!"
+rtp.failed: "&cיצירת נקודת טלפורט נכשלה!"
 
 #=======================
 # רשימה שחורה
 #=======================
-blacklist.list_header: "&a&lרשימה שחורה:"
-blacklist.add_success: "&a&l&6&l<target> &a&lהוסף לרשימה שחורה"
-blacklist.remove_success: "&a&l&6&l<target> &a&lהוסר מהרשימה השחורה"
+blacklist.list_header: "&aרשימה שחורה:"
+blacklist.add_success: "&a&6<target> &aהוסף לרשימה שחורה"
+blacklist.remove_success: "&a&6<target> &aהוסר מהרשימה השחורה"
 
 #=======================
 # הודעות שגיאה
 #=======================
 ## מצב פקודה
-error.command_disabled: "&c&lהפקודה מושבתת!"
-error.world_disabled: "&c&lהפקודה לא זמינה בעולם זה!"
-error.command_cooldown: "&c&lנא להמתין <seconds> שניות!"
+error.command_disabled: "&cהפקודה מושבתת!"
+error.world_disabled: "&cהפקודה לא זמינה בעולם זה!"
+error.command_cooldown: "&cנא להמתין <seconds> שניות!"
 
 ## הרשאות
-error.console_restricted: "&c&lרק שחקנים יכולים להשתמש בזה!"
-error.permission_denied: "&c&lאין הרשאה!"
+error.console_restricted: "&cרק שחקנים יכולים להשתמש בזה!"
+error.permission_denied: "&cאין הרשאה!"
 
 ## מצב שחקן
-error.no_online_players: "&c&lאין שחקנים מחוברים!"
-error.target_offline: "&c&lשחקן &6&l<target> &c&lלא מחובר!"
-error.self_operation: "&c&lלא ניתן להשתמש על עצמך!"
+error.no_online_players: "&cאין שחקנים מחוברים!"
+error.target_offline: "&cשחקן &6<target> &cלא מחובר!"
+error.self_operation: "&cלא ניתן להשתמש על עצמך!"
 
 ## מצב בקשה
-error.no_pending_request: "&c&lאין בקשות ממתינות!"
-error.request_pending: "&c&lקיימת בקשה פעילה"
+error.no_pending_request: "&cאין בקשות ממתינות!"
+error.request_pending: "&cקיימת בקשה פעילה"
 
 ## רשימה שחורה
-error.already_blacklisted: "&c&lהשחקן כבר ברשימה!"
-error.blocked_by_target: "&c&lהוספת לרשימה שחורה!"
-error.blacklist_empty: "&c&lהרשימה השחורה ריקה!"
-error.not_blacklisted: "&c&lהשחקן לא ברשימה!"
+error.already_blacklisted: "&cהשחקן כבר ברשימה!"
+error.blocked_by_target: "&cהוספת לרשימה שחורה!"
+error.blacklist_empty: "&cהרשימה השחורה ריקה!"
+error.not_blacklisted: "&cהשחקן לא ברשימה!"
 
 ## בתים
-error.home_not_found: "&c&lבית <target> לא קיים!"
-error.no_homes_set: "&c&lלא הוגדרו בתים!"
-error.no_default_home: "&c&lלא הוגדר בית ברירת מחדל!"
+error.home_not_found: "&cבית <target> לא קיים!"
+error.no_homes_set: "&cלא הוגדרו בתים!"
+error.no_default_home: "&cלא הוגדר בית ברירת מחדל!"
 
 ## נקודות טלפורט
-error.warp_not_found: "&c&lנקודת טלפורט <target> לא קיימת!"
-error.no_warps_set: "&c&lאין נקודות טלפורט!"
+error.warp_not_found: "&cנקודת טלפורט <target> לא קיימת!"
+error.no_warps_set: "&cאין נקודות טלפורט!"
 
 ## מיקומים
-error.last_location_missing: "&c&lאין מיקום אחרון!"
-error.logout_location_missing: "&c&lאין מיקום יציאה!"
-error.spawn_not_set: "&c&lלא הוגדר ספawn!"
+error.last_location_missing: "&cאין מיקום אחרון!"
+error.logout_location_missing: "&cאין מיקום יציאה!"
+error.spawn_not_set: "&cלא הוגדר ספawn!"
 
 ## תחביר פקודה
-error.syntax_generic: "&c&lתחביר שגוי! השתמש: /<command>"
-error.syntax_tpa: "&c&lתחביר שגוי! השתמש: /<command> <שחקן>"
-error.syntax_tpall: "&c&lתחביר שגוי! השתמש: /<command> [player/warp/spawn] [שם]"
-error.syntax_warp: "&c&lתחביר שגוי! השתמש: /<command> <נקודת טלפורט>"
-error.syntax_home: "&c&lתחביר שגוי! השתמש: /<command> <שם בית>"
+error.syntax_generic: "&cתחביר שגוי! השתמש: /<command>"
+error.syntax_tpa: "&cתחביר שגוי! השתמש: /<command> <שחקן>"
+error.syntax_tpall: "&cתחביר שגוי! השתמש: /<command> [player/warp/spawn] [שם]"
+error.syntax_warp: "&cתחביר שגוי! השתמש: /<command> <נקודת טלפורט>"
+error.syntax_home: "&cתחביר שגוי! השתמש: /<command> <שם בית>"
 
 ## שגיאות מערכת
-error.config_not_found: "&c&lקובץ הגדרות לא נמצא - נוצר חדש!"
-error.runtime: "&c&lשגיאת תוסף: <message>"
-error.forwarded_error: "&c&lשגיאה מ&6&l<target>:"
+error.config_not_found: "&cקובץ הגדרות לא נמצא - נוצר חדש!"
+error.runtime: "&cשגיאת תוסף: <message>"
+error.forwarded_error: "&cשגיאה מ&6<target>:"
 
 #=======================
 # תהליך טלפורט
 #=======================
-teleport.accept.self: "&a&lקיבלת בקשה מ&6&l<target>!"
-teleport.accept.target: "&a&l&6&l<target> &a&lקיבל את בקשתך!"
-teleport.deny.self: "&c&lדחית בקשה מ&6&l<target>!"
-teleport.deny.target: "&c&l&6&l<target> &c&lדחה את בקשתך!"
-teleport.countdown: "&a&lטלפורט תתבצע בעוד &6&l<seconds> &a&lשניות ל&6&l<target>"
-teleport.cancel_on_move: "&a&lתנועה תבטל את הטלפורט!"
-teleport.canceled.self: "&c&lביטלת טלפורט!"
-teleport.canceled.target: "&c&lהצד השני ביטל טלפורט!"
-teleport.generic_success: "&a&lהתטלפת ל&6&l<target>"
-teleport.tpall.to_target: "&a&lאדמין הטלפורט אותך ל&6&l<target>"
-teleport.tpall.to_self: "&a&lאדמין הטלפורט את כולם אליך"
-teleport.tpall.success: "&a&lכולם הוטלפו ל&6&l<target>"
-teleport.logout_location: "&a&lהתטלפת למיקום יציאה של &6&l<target>"
+teleport.accept.self: "&aקיבלת בקשה מ&6<target>!"
+teleport.accept.target: "&a&6<target> &aקיבל את בקשתך!"
+teleport.deny.self: "&cדחית בקשה מ&6<target>!"
+teleport.deny.target: "&c&6<target> &cדחה את בקשתך!"
+teleport.countdown: "&aטלפורט תתבצע בעוד &6<seconds> &aשניות ל&6<target>"
+teleport.cancel_on_move: "&aתנועה תבטל את הטלפורט!"
+teleport.canceled.self: "&cביטלת טלפורט!"
+teleport.canceled.target: "&cהצד השני ביטל טלפורט!"
+teleport.generic_success: "&aהתטלפת ל&6<target>"
+teleport.tpall.to_target: "&aאדמין הטלפורט אותך ל&6<target>"
+teleport.tpall.to_self: "&aאדמין הטלפורט את כולם אליך"
+teleport.tpall.success: "&aכולם הוטלפו ל&6<target>"
+teleport.logout_location: "&aהתטלפת למיקום יציאה של &6<target>"
 
 #=======================
 # הודעות מערכת
 #=======================
-system.config_reloaded: "&a&lהגדרות נטענו מחדש!"
-system.plugin_loaded: "&a&lהתוסף נטען! גרסה: &6&l<target>"
-system.plugin_unloaded: "&c&lהתוסף נסגר!"
-system.config_migrated_success: "&a&lהגדרות הועברו!"
-system.config_migrated: "&a&lנמצאה גרסת הגדרות ישנה - מעביר (גיבוי בתיקיית backup)"
+system.config_reloaded: "&aהגדרות נטענו מחדש!"
+system.plugin_loaded: "&aהתוסף נטען! גרסה: &6<target>"
+system.plugin_unloaded: "&cהתוסף נסגר!"
+system.config_migrated_success: "&aהגדרות הועברו!"
+system.config_migrated: "&aנמצאה גרסת הגדרות ישנה - מעביר (גיבוי בתיקיית backup)"
 system.debug_warning: "אזהרה: מצב debug פעיל - נא לכבות לאחר שימוש!"
 
 #=======================
 # עדכונים
 #=======================
-update.checking: "&a&lבודק עדכונים..."
-update.available: "&a&lגרסה חדשה זמינה: &6&lTPA-v<target> &a&lהורד מ&6&lhttps://modrinth.com/plugin/tpa.66666/versions"
-update.latest: "&a&lאתה בגרסה העדכנית ביותר"
-update.failed: "&c&lשגיאה בבדיקת עדכונים!"
+update.checking: "&aבודק עדכונים..."
+update.available: "&aגרסה חדשה זמינה: &6TPA-v<target> &aהורד מ&6https://modrinth.com/plugin/tpa.66666/versions"
+update.latest: "&aאתה בגרסה העדכנית ביותר"
+update.failed: "&cשגיאה בבדיקת עדכונים!"
