@@ -6,7 +6,7 @@
 
     <groupId>top.craft_hello.tpa</groupId>
     <artifactId>TPA</artifactId>
-    <version>fork-3.2.6_1.0.1</version>
+    <version>fork-3.2.6_1.0.2</version>
     <packaging>jar</packaging>
 
     <name>TPA</name>
