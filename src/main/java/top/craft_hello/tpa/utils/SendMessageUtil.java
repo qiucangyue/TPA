@@ -245,9 +245,8 @@ public class SendMessageUtil {
         LanguageConfig language = getLanguage(executor);
         if ("last_location".equals(target) || "rtp_name".equals(target) || "spawn_name".equals(target)) vars[vars.length - 2] = language.getMessage(target);
         String title = language.getFormatMessage("teleport.countdown", vars);
-//        String subTitle = language.getFormatMessage("teleport.cancel_on_move");
-//        executor.sendTitle(title, subTitle);
-        executor.sendTitle(title);
+        String subTitle = language.getFormatMessage("teleport.cancel_on_move");
+        executor.sendTitle(title, subTitle);
     }
 
     // title 样式的传送倒计时结束消息
