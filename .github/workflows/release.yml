@@ -1,8 +1,8 @@
 name: 自动构建与发布
 
 on:
-  push:
-    branches: [ "main" ]
+  create: # 当创建新的引用时触发
+    tags: [ '*' ] # 匹配所有标签
 
 jobs:
   build-and-release:
@@ -18,19 +18,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 获取项目信息
+      - name: 获取项目名称
         id: project-info
         run: |
-          # 从pom.xml提取项目信息
+          # 从pom.xml提取项目名称 (name 或 artifactId)
           PROJECT_NAME=$(mvn help:evaluate -Dexpression=project.name -q -DforceStdout | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
           if [ "$PROJECT_NAME" = "null" ]; then
             PROJECT_NAME=$(mvn help:evaluate -Dexpression=project.artifactId -q -DforceStdout)
           fi
           
-          VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout | tr -d '\n')
-          
           echo "name=${PROJECT_NAME}" >> $GITHUB_OUTPUT
-          echo "version=${VERSION}" >> $GITHUB_OUTPUT
 
       - name: 设置Java环境
         uses: actions/setup-java@v3
@@ -96,8 +93,8 @@ jobs:
       - name: 创建版本发布
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ steps.project-info.outputs.version }}
-          name: ${{ steps.project-info.outputs.name }}-v${{ steps.project-info.outputs.version }}
+          tag_name: ${{ github.ref_name }}
+          name: ${{ steps.project-info.outputs.name }}-${{ github.ref_name }}
           body: |
             ## 📝 提交信息
             ```
@@ -106,7 +103,7 @@ jobs:
 
             ## 🔧 构建详情
             - 项目名称: ${{ steps.project-info.outputs.name }}
-            - 版本号: ${{ steps.project-info.outputs.version }}
+            - 版本号: ${{ github.ref_name }}
             - 提交哈希: [${{ github.sha }}](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }})
             - 构建时间: ${{ steps.get-date.outputs.date }}
 
