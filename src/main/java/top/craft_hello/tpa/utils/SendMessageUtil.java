@@ -256,7 +256,7 @@ public class SendMessageUtil {
         Bukkit.getConsoleSender().sendMessage(target);
         String title = language.getFormatMessage("teleport.generic_success", target);
         try {
-            executor.sendTitle(title, "");
+//            executor.sendTitle(title, "");
         } catch (Throwable ignored){}
     }
 
